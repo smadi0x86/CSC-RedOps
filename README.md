@@ -3,7 +3,7 @@
   Welcome to Offensive Operations learning path!
   <a href="https://github.com/smadi0x86/CSC-RedOps"><img src="https://blog.cloudflare.com/content/images/2017/12/animation-iot-botnet.gif" alt="redteam.logo"></a>
   <br>
-  Welcome to Offensive Operations learning path!
+
   <br>
 </h1>
 
