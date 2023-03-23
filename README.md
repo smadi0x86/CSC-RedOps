@@ -20,7 +20,7 @@
 
 ## 🛑 Notice :
 ```
-This learning path is made for the Red Team of the Cyber Security Club of HTU.
+This learning path is made for the red team members of the Cyber Security Club of HTU.
 ```
 ## ⚠️ Disclaimer :
 
