@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h3 align="center">There's no way back, keep going on!</h3>
+<h3 align="center">No way Back, Hunt Them Down!</h3>
 
 <p align="center">
   <a href="">
