@@ -13,7 +13,7 @@
   <a href="">
    <img src=https://img.shields.io/badge/Red-Team-red>
    <img src=https://img.shields.io/badge/Learning-Path-blue>
-    <img src=https://img.shields.io/badge/HTU-CSC-red>
+    <img src=https://img.shields.io/badge/CSC-HTU-red>
   </a>
   </p>
 
