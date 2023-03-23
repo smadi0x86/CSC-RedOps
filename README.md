@@ -18,9 +18,9 @@
   </a>
   </p>
 
-## 😊 Notice :
+## 🛑 Notice :
 
-- This repo gets updated every once in a while, it includes everything I learned and practiced
+- This learning path is made for the Red Team of the Cyber Security Club of HTU.
 
 ## ⚠️ Disclaimer :
 
