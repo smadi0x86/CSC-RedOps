@@ -11,9 +11,10 @@
 
 <p align="center">
   <a href="">
-   <img src=https://img.shields.io/badge/Team-red-darkred>
+   <img src=https://img.shields.io/badge/Red-Team-darkred>
    <img src=https://img.shields.io/badge/Learning-Path-blue>
-    <img src=https://img.shields.io/badge/CSC-HTU-red>
+   <img src=https://img.shields.io/badge/LICENSE-MIT-blue>
+  <img src=https://img.shields.io/badge/CSC-HTU-red>
   </a>
   </p>
 
