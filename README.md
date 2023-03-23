@@ -20,12 +20,12 @@
 
 ## 🛑 Notice :
 ```
-This learning path is made for the offensive (red) team members of the Cyber Security Club of HTU.
+This learning path is made for the offensive (red) team members of the Cyber Security Club in HTU.
 ```
 ## ⚠️ Disclaimer :
-
-- I am not responsible for any misuse of this information, its only for education purposes
-
+```
+I am not responsible for any misuse of this information, its only for education purposes.
+```
 ## 📞 Contact :
 
 <p align="center">
