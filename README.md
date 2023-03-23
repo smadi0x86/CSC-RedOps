@@ -19,9 +19,9 @@
   </p>
 
 ## 🛑 Notice :
-
-- This learning path is made for the Red Team of the Cyber Security Club of HTU.
-
+```
+This learning path is made for the Red Team of the Cyber Security Club of HTU.
+```
 ## ⚠️ Disclaimer :
 
 - I am not responsible for any misuse of this information, its only for education purposes
