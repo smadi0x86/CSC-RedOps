@@ -70,5 +70,13 @@ These five things play a role in every job you will get as an ethical attacker l
 - ***Reporting attacks are for most people the least fun part of the job but the most important part for the client.***
 ```
 Key Note:  War is 90 percent information, the rest is how you apply it to the objective.
-           An attacker takes in information to achieve an objective.
 ```
+
+## Application of mindset
+
+```
+The application is the leveraging of that information to perform our attack, Let’s look at application from a high level.
+There are many ways to attack:
+```
+- ***Physical Attacks An attack on a physical resource, such as a facility, building, or other physical asset.***
+- ***Human Attack An attack that involves social engineering and the manipulation of people to achieve the objective, also at a physical resource/facility, includes vishing (voice phishing).***
