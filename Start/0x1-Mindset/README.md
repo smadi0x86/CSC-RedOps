@@ -68,3 +68,7 @@ These five things play a role in every job you will get as an ethical attacker l
 - ***If you have all of these skills, you will still only succeed if you have a high level of self-awareness, because you must always know what you bring and how to leverage it.*** 
 - ***Self-awareness will allow you a higher level of influence over someone else which helps in social engineering.***
 - ***Reporting attacks are for most people the least fun part of the job but the most important part for the client.***
+```
+Key Note:  War is 90 percent information, the rest is how you apply it to the objective.
+           An attacker takes in information to achieve an objective.
+```
