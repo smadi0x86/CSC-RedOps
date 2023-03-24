@@ -95,4 +95,4 @@ they threaten to call the authorities. If one or both of these occur, I explain 
 - ***Preloading: Preloading is influencing your target before the event takes place. In other words, the attack starts before you’ve walked in the door
 how you walk, how you carry yourself, what you are wearing, and your posture, facial expression, everything, are all factors in your success.***
 - ***“Right Time, Right Place” Preload: Preloading can work by simply being in the right place at the right time. Imagine you are a target for a moment; you are at a work
-event and someone approaches you, seemingly interested in you and your job. It doesn’t seem too threatening—after all, it’s just someone interested in learning about your job***
+event and someone approaches you, seemingly interested in you and your job. It doesn’t seem too threatening after all, it’s just someone interested in learning about your job.***
