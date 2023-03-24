@@ -73,7 +73,10 @@ Key Note:  War is 90 percent information, the rest is how you apply it to the ob
 ```
 
 ## Application of mindset
-<img src="https://g.top4top.io/p_2639c7lam1.png"> 
+<p align="center">
+  <a href="">
+  <img src="https://g.top4top.io/p_2639c7lam1.png">
+  </a> 
 ```
 The application is the leveraging of that information to perform our attack, Let’s look at application from a high level.
 There are many ways to attack:
