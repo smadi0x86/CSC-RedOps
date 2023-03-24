@@ -76,7 +76,7 @@ These five things play a role in every job you will get as an ethical attacker l
 Key Note:  War is 90 percent information, the rest is how you apply it to the objective.
 ```
 
-## Application of mindset
+## [Application of mindset](https://www.coresecurity.com/blog/how-think-attacker-advice-not-so-dark-side)
 
 ```
 The application is the leveraging of that information to perform our attack, Let’s look at application from a high level.
