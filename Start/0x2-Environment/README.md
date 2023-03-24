@@ -5,7 +5,7 @@
   <br>
   </h1>
  
- <h3 align="center">Your environment is any of linux distros you will be using most of the time</h3>
+ <h3 align="center">Your environment is any linux distro you will be using to attack</h3>
  
 <p align="center">
   <a href="">
