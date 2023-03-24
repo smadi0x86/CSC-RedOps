@@ -62,22 +62,6 @@ All of this neatly brings us to the cognitive skills an attacker must exhibit:
 The objective is the central point from which all moves an attacker makes is dependent on it.
 ```
 
-## Things to remember
-
-```
-These five things play a role in every job you will get as an ethical attacker looking to succeed.
-```
-- ***You cannot become a good attacker without a healthy dose of curiosity.***
-- ***Your curiosity will not pay off without persistence.***
-- ***You will have nothing to persist in if you cannot take in information and leverage the most of it correctly.***
-- ***You will need to have mental agility (seeing the big picture) to actively adapt information in the moment.***
-- ***If you have all of these skills, you will still only succeed if you have a high level of self-awareness, because you must always know what you bring and how to leverage it.*** 
-- ***Self-awareness will allow you a higher level of influence over someone else which helps in social engineering.***
-- ***Reporting attacks are for most people the least fun part of the job but the most important part for the client.***
-```
-Key Note:  War is 90 percent information, the rest is how you apply it to the objective.
-```
-
 ## [Application of mindset](https://www.coresecurity.com/blog/how-think-attacker-advice-not-so-dark-side)
 
 ```
@@ -98,3 +82,19 @@ they threaten to call the authorities. If one or both of these occur, I explain 
 how you walk, how you carry yourself, what you are wearing, and your posture, facial expression, everything, are all factors in your success.***
 - ***“Right Time, Right Place” Preload: Preloading can work by simply being in the right place at the right time. Imagine you are a target for a moment; you are at a work
 event and someone approaches you, seemingly interested in you and your job. It doesn’t seem too threatening after all, it’s just someone interested in learning about your job.***
+
+## Things to remember
+
+```
+These five things play a role in every job you will get as an ethical attacker looking to succeed.
+```
+- ***You cannot become a good attacker without a healthy dose of curiosity.***
+- ***Your curiosity will not pay off without persistence.***
+- ***You will have nothing to persist in if you cannot take in information and leverage the most of it correctly.***
+- ***You will need to have mental agility (seeing the big picture) to actively adapt information in the moment.***
+- ***If you have all of these skills, you will still only succeed if you have a high level of self-awareness, because you must always know what you bring and how to leverage it.*** 
+- ***Self-awareness will allow you a higher level of influence over someone else which helps in social engineering.***
+- ***Reporting attacks are for most people the least fun part of the job but the most important part for the client.***
+```
+Key Note:  War is 90 percent information, the rest is how you apply it to the objective.
+```
