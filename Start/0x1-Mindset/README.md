@@ -33,7 +33,9 @@ Things to remember:
 - ***If they are holding the event virtually, a well-crafted phish will have a high probability of being undetected.***
 - ***You might start by finding out which platform they are holding the event on and phishing them, pretending to be that platform.***
 - ***The possibilities are truly endless when you have information, and you can weaponize it and leverage it correctly.***
-
+```
+The main advantage of an attacker on other people is the skill and laws he follows to obtain his objective.
+```
 ## [The Laws](https://github.com/smadi0x86/CSC-RedOps/blob/main/Start/0x1-Mindset/Objective.png)
 
 ```
