@@ -12,21 +12,21 @@
 
   ## Getting Started
 
-- **Hello this is smadi, I'll be happy to serve you this study path for the offensive operations section of CSC HTU.**
+- ***Hello this is smadi, I'll be happy to serve you this study path for the offensive operations section of CSC HTU.***
   
   ## Downloading the project
 
-- **Get a copy of the project by cloning or downloading it to your local machine and then you can run/customize it in your IDE.**
+- ***Get a copy of the project by cloning or downloading it to your local machine and then you can run/customize it in your IDE.***
 
-- **You can clone the project by running this command in your terminal:**
+- ***You can clone the project by running this command in your terminal:***
 ```bash
 git clone https://github/com/smadi0x01/CSC-RedOps.git
 ```
-- **Equivalently you can download the project by clicking [Here](https://github.com/smadi0x01/CSC-RedOps/archive/refs/heads/main.zip) to download the .zip file.**
+- ***Equivalently you can download the project by clicking [Here](https://github.com/smadi0x01/CSC-RedOps/archive/refs/heads/main.zip) to download the .zip file.***
 
   ## Resources
 
-- **I'll be adding some resources in the [references](https://github.com/smadi0x01/CSC-RedOps/blob/main/Learn/references.txt) file:**
+- ***I'll be adding some resources in the [references](https://github.com/smadi0x01/CSC-RedOps/blob/main/Learn/references.txt) file:***
 
 ## License
 
@@ -36,8 +36,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contributing
 
-- **Contributions are what make the open source community such an amazing place to be learn, inspire, and create.**
-- **Any contributions you make are greatly appreciated.**
+- ***Contributions are what make the open source community such an amazing place to be learn, inspire, and create.***
+- ***Any contributions you make are greatly appreciated.***
 
 1. **Fork the Project**
 2. **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
