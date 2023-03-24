@@ -11,9 +11,7 @@
 <p align="center">
   <a href="">
    <img src=https://img.shields.io/badge/Red-Team-darkred>
-   <img src=https://img.shields.io/badge/Learning-Path-yellow>
    <img src=https://img.shields.io/badge/License-MIT-blue>
-  <img src=https://img.shields.io/badge/CSC-HTU-red>
   </a>
   </p>
 
