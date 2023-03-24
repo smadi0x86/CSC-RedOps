@@ -25,11 +25,11 @@ Hello this is smadi, I'll be happy to serve you this study path for the offensiv
 ```bash
 git clone https://github/com/smadi0x01/CSC-RedOps.git
 ```
-- ***Equivalently you can download the project by clicking [Here](https://github.com/smadi0x01/CSC-RedOps/archive/refs/heads/main.zip) to download the .zip file.***
+- ***Equivalently you can download the project by clicking [Here](https://github.com/smadi0x86/CSC-RedOps/archive/refs/heads/main.zip) to download the .zip file.***
 
 ## Resources
 
-- ***I'll be adding some resources in the [references](https://github.com/smadi0x01/CSC-RedOps/blob/main/Learn/references.txt) file:***
+- ***I'll be adding some resources in the [references](https://github.com/smadi0x86/CSC-RedOps/blob/main/Learn/references.txt) file:***
 
 ## License
 
