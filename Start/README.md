@@ -3,6 +3,7 @@
   <a href="https://github.com/smadi0x86/CSC-RedOps"><img src="https://giffiles.alphacoders.com/156/15675.gif" alt="offsec.logo"></a>
   <br>
   </h1>
+  
   ### 📚 Study Map:
 
 + [0x1-Mindset](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x1-Mindset)
