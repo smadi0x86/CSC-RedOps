@@ -14,4 +14,11 @@
   </a>
   </p>
   
-## Let's Begin
+## Pick your distribution
+- ***Picking your linux distro is essential to ensure that your comfortable and doing your attacks with full knowledge of your system.***
+```
+There are many distros you can pick from, some popular ones are:
+```
+- [***Kali Linux***](https://www.kali.org/get-kali/)
+- [***ParrotOS***](https://www.parrotsec.org/download/)
+- [***BlackArch***](https://blackarch.org/downloads.html)
