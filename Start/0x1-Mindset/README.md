@@ -78,7 +78,7 @@ Key Note:  War is 90 percent information, the rest is how you apply it to the ob
 The application is the leveraging of that information to perform our attack, Let’s look at application from a high level.
 There are many ways to attack:
 ```
-[Take a look at this]https://github.com/smadi0x86/CSC-RedOps/blob/main/Start/0x1-Mindset/Objective.png
+[Take a look at this](https://github.com/smadi0x86/CSC-RedOps/blob/main/Start/0x1-Mindset/Objective.png)
 - ***Physical Attacks: An attack on a physical resource, such as a facility, building, or other physical asset.***
 - ***Human Attack: An attack that involves social engineering and the manipulation of people to achieve the objective, also at a physical resource/facility, includes vishing (voice phishing).***
 - ***Cyber Attacks: Cyberattacks can range from installing spyware or malware onto a computer or network to attempting to destroy the infrastructure.***
