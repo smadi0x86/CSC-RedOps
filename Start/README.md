@@ -13,7 +13,6 @@
   ## Getting Started
 
 - **Hello this is smadi, I'll be happy to serve you this study path for the offensive operations section of CSC HTU.**
-```
   
   ## Downloading the project
 
