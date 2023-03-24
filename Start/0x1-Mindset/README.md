@@ -30,3 +30,6 @@ Things to remember:
 - ***You can then use this information to create a convincing phishing email that will be more likely to be opened.***
 - ***If they are holding the event virtually, a well-crafted phish will have a high probability of being undetected.***
 - ***You might start by finding out which platform they are holding the event on and phishing them, pretending to be that platform.***
+- ***The possibilities are truly endless when you have information, and you can weaponize it and leverage it correctly.***
+
+## Cognitive Skills
