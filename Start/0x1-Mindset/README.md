@@ -71,7 +71,7 @@ These five things play a role in every job you will get as an ethical attacker l
 ```
 Key Note:  War is 90 percent information, the rest is how you apply it to the objective.
 ```
-
+https://github.com/smadi0x86/CSC-RedOps/blob/main/Start/0x1-Mindset/Objective.png
 ## Application of mindset
 
 ```
