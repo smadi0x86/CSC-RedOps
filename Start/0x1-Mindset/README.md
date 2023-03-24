@@ -15,3 +15,9 @@
   </a>
   </p>
 
+## Let's Begin
+
+```
+There are two main states of attacker mindset: 
+there’s before the vulnerable information has been carved out and there’s after.
+```
