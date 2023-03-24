@@ -6,7 +6,6 @@
 </h1>
 
 <p align="center">
-   <h3 align="center">The attacker mindset is a set of cognitive skills applied to several laws.</h3>
   <a href="">
    <img src=https://img.shields.io/badge/Red-Team-darkred>
    <img src=https://img.shields.io/badge/Attack-Mindset-blue>
