@@ -1,5 +1,6 @@
 <h1 align="center">
   <br>
+  Be patient.
   <a href="https://github.com/smadi0x86/CSC-RedOps"><img src="https://giffiles.alphacoders.com/156/15675.gif" alt="offsec.logo"></a>
   <br>
   
