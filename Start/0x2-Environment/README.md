@@ -15,7 +15,7 @@
   </p>
   
 ## Pick your distribution
-- ***Picking your linux distro is essential to ensure that your comfortable and doing your attacks with full knowledge of your system.***
+- ***Picking your linux distro is essential to ensure that you're comfortable and doing your attacks with full knowledge of your system.***
 ```
 There are many distros you can pick from, some popular ones are:
 ```
