@@ -11,13 +11,13 @@
 + [0x3-Killchain](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-KillChain)
 + [0x4-Tools](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x4-Tools)
 
-  ## Getting Started
+## Getting Started
   
 ```
 Hello this is smadi, I'll be happy to serve you this study path for the offensive operations section of CSC HTU.
 ```
 
-  ## Downloading the project
+## Downloading the project
 
 - ***Get a copy of the project by cloning or downloading it to your local machine and then you can run/customize it in your IDE.***
 
@@ -27,7 +27,7 @@ git clone https://github/com/smadi0x01/CSC-RedOps.git
 ```
 - ***Equivalently you can download the project by clicking [Here](https://github.com/smadi0x01/CSC-RedOps/archive/refs/heads/main.zip) to download the .zip file.***
 
-  ## Resources
+## Resources
 
 - ***I'll be adding some resources in the [references](https://github.com/smadi0x01/CSC-RedOps/blob/main/Learn/references.txt) file:***
 
