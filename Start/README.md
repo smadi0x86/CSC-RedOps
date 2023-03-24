@@ -5,14 +5,7 @@
   
   ### 📚 Study Map:
 
-+ [Getting Started](#Getting-Started)
-+ [Downloading the project](#Downloading-the-project)
-+ [Run in visual studio code](#Run-in-visual-studio-code)
-+ [Introduction](#Introduction)
-+ [Object Orientation](#Object-Orientation)
-+ [How is the code written?](#How-is-the-code-written)
-+ [Important](#Important)
-+ [Resources](#Resources)
-+ [License](#License)
-+ [Contributing](#Contributing)
-+ [Acknowledgments](#Acknowledgments)
++ [0x1-Mindset](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x1-Mindset)
++ [0x2-Environment](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x2-Environment)
++ [0x3-Killchain](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-KillChain)
++ [0x4-Tools](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x4-Tools)
