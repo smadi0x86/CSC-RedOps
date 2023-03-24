@@ -12,9 +12,11 @@
 + [0x4-Tools](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x4-Tools)
 
   ## Getting Started
-
-- ***Hello this is smadi, I'll be happy to serve you this study path for the offensive operations section of CSC HTU.***
   
+```
+Hello this is smadi, I'll be happy to serve you this study path for the offensive operations section of CSC HTU.
+```
+
   ## Downloading the project
 
 - ***Get a copy of the project by cloning or downloading it to your local machine and then you can run/customize it in your IDE.***
