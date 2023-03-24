@@ -53,3 +53,13 @@ It’s the application of the skills against the laws that makes the mindset:
 - ***Law 3 says that you never break pretext. You must remain disguised as a threat at all times.***
 - ***Law 4 tells you that everything you do is for the benefit of the objective.***
 - ***The objective is the central point from which all moves an attacker makes is dependent on it.***
+
+## Things to remember
+
+- ***You cannot become a good attacker without a healthy dose of curiosity.***
+- ***Your curiosity will not pay off without persistence.***
+- ***You will have nothing to persist in if you cannot take in information and leverage the most of it correctly.***
+- ***You will need to have mental agility (seeing the big picture) to actively adapt information in the moment.***
+- ***If you have all of these skills, you will still only succeed if you have a high level of self-awareness, because you must always know what you bring and how to leverage it.*** 
+- ***Self-awareness will allow you a higher level of influence over someone else which helps in social engineering.***
+- ***These five things play a role in every job you will get as an ethical attacker looking to succeed.***
