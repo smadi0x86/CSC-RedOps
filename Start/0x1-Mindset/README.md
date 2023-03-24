@@ -34,6 +34,16 @@ Things to remember:
 - ***You might start by finding out which platform they are holding the event on and phishing them, pretending to be that platform.***
 - ***The possibilities are truly endless when you have information, and you can weaponize it and leverage it correctly.***
 
+## The Laws
+
+```
+It’s the application of the skills against the laws that makes the mindset:
+```
+- ***The first law states that you start with the end in mind, knowing your objective. This will allow you to use laws 2, 3, and 4 most effectively.***
+- ***Law 2 states that you gather, weaponize, and leverage information for the good of the objective, this is how you serve law 1.***
+- ***Law 3 says that you never break pretext, You must remain disguised as a threat at all times.***
+- ***Law 4 tells you that everything you do is for the benefit of the objective.***
+
 ## Cognitive Skills
 
 ```
@@ -44,14 +54,6 @@ All of this neatly brings us to the cognitive skills an attacker must exhibit:
 - ***Self-awareness is invisible. No one can “see” that you are self-aware, but almost everyone can feel if you are or not.***
 - ***An attacker’s main ammo is the leveraging and weaponization of information, without this they are powerless.***
 - ***Never forget that the world runs on data now, so information is everywhere, You just need to know how to find it and how to use it.***
-
-```
-It’s the application of the skills against the laws that makes the mindset:
-```
-- ***The first law states that you start with the end in mind, knowing your objective. This will allow you to use laws 2, 3, and 4 most effectively.***
-- ***Law 2 states that you gather, weaponize, and leverage information for the good of the objective, this is how you serve law 1.***
-- ***Law 3 says that you never break pretext. You must remain disguised as a threat at all times.***
-- ***Law 4 tells you that everything you do is for the benefit of the objective.***
 ```
 The objective is the central point from which all moves an attacker makes is dependent on it.
 ```
