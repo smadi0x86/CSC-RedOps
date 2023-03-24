@@ -36,5 +36,5 @@ We will not go over installing them, but here are videos that explains that:
 I will be explaining terminal commands that is handy for offensive ops, meanwhile I'm assuming you know basics of terminal usage such as: cd, cat, grep, chmod etc...
 ```
 ```
-Note: These commands are tested on parrot and kali, BlackArch command line interface is slightly different, it uses pacman instead of apt for package managing for example.
+Note: These commands are tested on Parrot and Kali, BlackArch terminal is slightly different, it uses pacman instead of apt for package managing for example.
 ```
