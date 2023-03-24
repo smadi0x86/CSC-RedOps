@@ -78,5 +78,7 @@ Key Note:  War is 90 percent information, the rest is how you apply it to the ob
 The application is the leveraging of that information to perform our attack, Let’s look at application from a high level.
 There are many ways to attack:
 ```
-- ***Physical Attacks An attack on a physical resource, such as a facility, building, or other physical asset.***
-- ***Human Attack An attack that involves social engineering and the manipulation of people to achieve the objective, also at a physical resource/facility, includes vishing (voice phishing).***
+- ***Physical Attacks: An attack on a physical resource, such as a facility, building, or other physical asset.***
+- ***Human Attack: An attack that involves social engineering and the manipulation of people to achieve the objective, also at a physical resource/facility, includes vishing (voice phishing).***
+- ***Cyber Attacks: Cyberattacks can range from installing spyware or malware onto a computer or network to attempting to destroy the infrastructure.***
+- ***Theoretical Attacks: Often used for strategy and decision making, It is typically performed by two opposing teams, generally outside the organization, that test the weight of the intelligence given to them, both arriving at different outcomes based on the same information.***
