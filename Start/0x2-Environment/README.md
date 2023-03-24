@@ -24,7 +24,7 @@ There are many distros you can pick from, some popular ones are:
 - [***BlackArch***](https://blackarch.org/downloads.html)
 
 ```
-We will not go over installing them, but here is a video that explains that:
+We will not go over installing them, but here are videos that explains that:
 ```
 - [***Installing Kali***](https://www.youtube.com/watch?v=3Iq7wHsNEXw)
 - [***Installing Parrot***](https://www.youtube.com/watch?v=9z-_h7aChDI)
@@ -34,4 +34,7 @@ We will not go over installing them, but here is a video that explains that:
 
 ```
 I will be explaining terminal commands that is handy for offensive ops, meanwhile I'm assuming you know basics of terminal usage such as: cd, cat, grep, chmod etc...
+```
+```
+Note: These commands are tested on parrot and kali, BlackArch command line interface is slightly different, it uses pacman instead of apt for package managing for example.
 ```
