@@ -1,5 +1,5 @@
 <h1 align="center">
-  Defense existed from Attackers
+  If you want to win you have to attack
   <br>
   <a href="https://github.com/smadi0x86/CSC-RedOps"><img src="https://giffiles.alphacoders.com/156/15675.gif" alt="offsec.logo"></a>
   <br>
