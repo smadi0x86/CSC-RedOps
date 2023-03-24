@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/smadi0x86/CSC-RedOps"><img src="https://thumbs.gfycat.com/ImportantEnragedAlaskanmalamute-size_restricted.gif" alt="offsec.logo"></a>
+  <a href="https://github.com/smadi0x86/CSC-RedOps"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ybmkEBWrms59yPtsm2hPKIoJF-PbPEmcYschzvDHWVaS8S2IW2OHydSCIxmQfSb6K0k&usqp=CAU" alt="offsec.logo"></a>
   <br>
   
   ### 📚 Study Map:
