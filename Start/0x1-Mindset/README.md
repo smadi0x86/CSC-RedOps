@@ -42,7 +42,7 @@ All of this neatly brings us to the cognitive skills an attacker must exhibit:
 - ***An attacker must have curiosity & persistence to drive that curiosity into action so as to be moving forward all the time.***
 - ***This mindset requires self-awareness.***
 - ***Self-awareness is invisible. No one can “see” that you are self-aware, but almost everyone can feel if you are or not.***
-- ***An attacker’s main ammo is the leveraging and weaponization of information without this, they are powerless.***
+- ***An attacker’s main ammo is the leveraging and weaponization of information, without this they are powerless.***
 - ***Never forget that the world runs on data now, so information is everywhere, You just need to know how to find it and how to use it.***
 
 ```
