@@ -87,3 +87,12 @@ There are many ways to attack:
 - ***Human Attack: An attack that involves social engineering and the manipulation of people to achieve the objective, also at a physical resource/facility, includes vishing (voice phishing).***
 - ***Cyber Attacks: Cyberattacks can range from installing spyware or malware onto a computer or network to attempting to destroy the infrastructure.***
 - ***Theoretical Attacks: Often used for strategy and decision making, It is typically performed by two opposing teams, generally outside the organization, that test the weight of the intelligence given to them, both arriving at different outcomes based on the same information.***
+- ***Confidence in Your Character: This doesn’t mean to say you must act confident. If you are posing as a lost foreigner, then you shouldn’t really be too confident, but you should have confidence in your “character” or pretext choice.***
+- ***Commitment to Your Character: This plan for me, includes if I get caught. 
+I will keep in character for as long as I can until I am sure they will not let me go (obviously I would try again) or if
+they threaten to call the authorities. If one or both of these occur, I explain the situation and ask for my point of contact to be reached.***
+- ***Narrative Effect: As humans, we love stories. In reality, we don’t always see the truth. We rely on a biased set of cognitive processes to get to a conclusion or belief.***
+- ***Preloading: Preloading is influencing your target before the event takes place. In other words, the attack starts before you’ve walked in the door
+how you walk, how you carry yourself, what you are wearing, and your posture, facial expression, everything, are all factors in your success.***
+- ***“Right Time, Right Place” Preload: Preloading can work by simply being in the right place at the right time. Imagine you are a target for a moment; you are at a work
+event and someone approaches you, seemingly interested in you and your job. It doesn’t seem too threatening—after all, it’s just someone interested in learning about your job***
