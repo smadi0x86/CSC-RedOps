@@ -3,7 +3,7 @@
   <a href="https://github.com/smadi0x86/CSC-RedOps"><img src="https://giffiles.alphacoders.com/156/15675.gif" alt="offsec.logo"></a>
   <br>
   
-  ## 📚 Study Map:
+  ### 📚 Study Map:
 
 + [Getting Started](#Getting-Started)
 + [Downloading the project](#Downloading-the-project)
