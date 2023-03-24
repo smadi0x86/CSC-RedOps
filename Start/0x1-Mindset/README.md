@@ -40,7 +40,7 @@ Things to remember:
 ```
 It’s the application of the skills against the laws that makes the mindset:
 ```
-- ***The first law states that you start with the end in mind, knowing your objective. This will allow you to use laws 2, 3, and 4 most effectively.***
+- ***law 1 states that you start with the end in mind, knowing your objective. This will allow you to use laws 2, 3, and 4 most effectively.***
 - ***Law 2 states that you gather, weaponize, and leverage information for the good of the objective, this is how you serve law 1.***
 - ***Law 3 says that you never break pretext, You must remain disguised as a threat at all times.***
 - ***Law 4 tells you that everything you do is for the benefit of the objective.***
