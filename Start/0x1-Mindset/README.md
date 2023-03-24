@@ -34,7 +34,7 @@ Things to remember:
 - ***You might start by finding out which platform they are holding the event on and phishing them, pretending to be that platform.***
 - ***The possibilities are truly endless when you have information, and you can weaponize it and leverage it correctly.***
 
-## The Laws
+## [The Laws](https://github.com/smadi0x86/CSC-RedOps/blob/main/Start/0x1-Mindset/Objective.png)
 
 ```
 It’s the application of the skills against the laws that makes the mindset:
@@ -74,7 +74,7 @@ These five things play a role in every job you will get as an ethical attacker l
 Key Note:  War is 90 percent information, the rest is how you apply it to the objective.
 ```
 
-## [Application of mindset](https://github.com/smadi0x86/CSC-RedOps/blob/main/Start/0x1-Mindset/Objective.png)
+## Application of mindset
 
 ```
 The application is the leveraging of that information to perform our attack, Let’s look at application from a high level.
