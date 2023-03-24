@@ -22,8 +22,7 @@ There are two main states of attacker mindset:
 There’s before the vulnerable information has been carved out and there’s after.
 
 One commonality exists between them: 
-Every step you take as an
-attacker must go in the direction of the objective.
+Every step you take as an attacker must go in the direction of the objective.
 ```
 
 ## 
