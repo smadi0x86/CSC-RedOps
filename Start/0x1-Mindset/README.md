@@ -38,6 +38,7 @@ Things to remember:
 ## [The Laws](https://github.com/smadi0x86/CSC-RedOps/blob/main/Start/0x1-Mindset/Objective.png)
 
 ```
+These laws must all work together in order to obtain success.
 It’s the application of the skills against the laws that makes the mindset:
 ```
 - ***law 1 states that you start with the end in mind, knowing your objective. This will allow you to use laws 2, 3, and 4 most effectively.***
