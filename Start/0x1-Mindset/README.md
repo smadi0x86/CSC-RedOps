@@ -11,7 +11,6 @@
   <a href="">
    <img src=https://img.shields.io/badge/Red-Team-darkred>
    <img src=https://img.shields.io/badge/Attack-Mindset-blue>
-   <img src="https://ibb.co/JsjYXRD">
   </a>
   </p>
 
