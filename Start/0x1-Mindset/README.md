@@ -35,3 +35,21 @@ Things to remember:
 - ***The possibilities are truly endless when you have information, and you can weaponize it and leverage it correctly.***
 
 ## Cognitive Skills
+
+```
+All of this neatly brings us to the cognitive skills an attacker must exhibit:
+```
+- ***An attacker must have curiosity & persistence to drive that curiosity into action so as to be moving forward all the time.***
+- ***This mindset requires self-awareness.***
+- ***Self-awareness is invisible. No one can “see” that you are self-aware, but almost everyone can feel if you are or not.***
+- ***An attacker’s main ammo is the leveraging and weaponization of information without this, they are powerless.***
+- ***Never forget that the world runs on data now, so information is everywhere, You just need to know how to find it and how to use it.***
+
+```
+It’s the application of the skills against the laws that makes the mindset:
+```
+1 - ***The first law of AMs states that you start with the end in mind, knowing your objective. This will allow you to use laws 2, 3, and 4 most effectively.***
+2 -  ***Law 2 states that you gather, weaponize, and leverage information for the good of the objective, this is how you serve law 1.***
+3 -  ***Law 3 says that you never break pretext. You must remain disguised as a threat at all times.***
+4 - ***Law 4 tells you that everything you do is for the benefit of the objective.***
+The objective is the central point from which all moves an attacker makes is depending on it.***
