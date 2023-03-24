@@ -22,3 +22,16 @@ There are many distros you can pick from, some popular ones are:
 - [***Kali Linux***](https://www.kali.org/get-kali/)
 - [***ParrotOS***](https://www.parrotsec.org/download/)
 - [***BlackArch***](https://blackarch.org/downloads.html)
+
+```
+We will not go over installing them, but here is a video that explains that:
+```
+- [***Installing Kali***](https://www.youtube.com/watch?v=3Iq7wHsNEXw)
+- [***Installing Parrot***](https://www.youtube.com/watch?v=9z-_h7aChDI)
+- [***Installing BlackArch***](https://www.youtube.com/watch?v=T0MBlWLZvpE)
+
+## Command Line Fun
+
+```
+I will be explaining terminal commands that is handy for offensive ops, meanwhile I'm assuming you know basics of terminal usage such as: cd, cat, grep, chmod etc...
+```
