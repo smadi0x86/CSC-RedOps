@@ -27,10 +27,6 @@ git clone https://github/com/smadi0x01/CSC-RedOps.git
 ```
 - ***Equivalently you can download the project by clicking [Here](https://github.com/smadi0x86/CSC-RedOps/archive/refs/heads/main.zip) to download the .zip file.***
 
-## Resources
-
-- ***I'll be adding some resources in the [references](https://github.com/smadi0x86/CSC-RedOps/blob/main/Learn/references.txt) file:***
-
 ## License
 
 ```
