@@ -6,7 +6,11 @@
 
 ### 🛠️ Tools Categories:
 
-- [0x1-Mindset](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x1-Mindset)
-- [0x2-Environment](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x2-Environment)
-- [0x3-Killchain](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-KillChain)
-- [0x4-Tools](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x4-Tools)
+- [Information Gathering](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x1-Mindset)
+- [Vulnerable Or Not](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/VulnerableOrNot)
+- [Exploitation](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/Exploitation)
+- [Privilege Escalation](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/PrivilegeEscalation)
+- [Web Attacks](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/WebAttacks)
+- [Password Attacks](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/PasswordAttacks)
+- [Tunneling](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/Tunneling)
+- [Reporting](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/Reporting)
