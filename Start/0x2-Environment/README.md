@@ -32,8 +32,6 @@ We will not go over installing them, but here are videos that explains that:
 - [***Installing Parrot***](https://www.youtube.com/watch?v=9z-_h7aChDI)
 - [***Installing BlackArch***](https://www.youtube.com/watch?v=T0MBlWLZvpE)
 
-## Command Line Fun
-
 ```
 I will be explaining terminal commands that is handy for offensive ops, meanwhile I'm assuming you know basics of terminal usage such as: cd, cat, grep, chmod etc...
 ```
