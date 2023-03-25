@@ -66,10 +66,10 @@ $~ ping -c 500 localhost > ping_icmp.txt &
 - ***b) "jobs" and "fg"***
 
 - ***To check the status of our previous icmp echo request we need to use "jobs" and "fg"***
+- ***This will list all jobs status that are running, suspended or stopped.***
 ```bash
 $~ jobs
 ```
-- ***This will list all jobs status that are running, suspended or stopped.***
 - ***This will return the process to foreground and you can edit or execute it again, %1 is just an example you can put any process number that you have 1,2,3,4 etc...***
 ```bash
 $~ fg %1
