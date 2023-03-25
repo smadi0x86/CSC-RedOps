@@ -76,7 +76,7 @@ $~ fg %1
 ```
 
 - ***c) "ps" and "kill"***
-- ***Unlike jobs command, ps lists all system processes not only for terminal session, It is useful after compromise to check software running on victim machine.
+- ***Unlike jobs command, ps lists all system processes not only for terminal session, It is useful after compromise to check software running on victim machine.***
 - ***This gives more information and clues for further access.***
 - ***This shows all processes, e: select all processes f: full format.***
 ```bash
