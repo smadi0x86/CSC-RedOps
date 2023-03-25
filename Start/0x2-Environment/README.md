@@ -42,7 +42,7 @@ Note: These commands are tested on Parrot and Kali, BlackArch terminal is slight
 ```
 ## Fire up your terminal
 ```
-Let's start exploring more commands & utilities we will use more frequently
+Let's start exploring more commands & utilities
 ```
 ### Comparing Files:
 ```
