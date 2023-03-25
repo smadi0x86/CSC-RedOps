@@ -46,4 +46,8 @@ Let's start exploring more commands & utilities
 ```
 Comparing files may seem irrelevant, but its so useful specially when you do multiple scans for same target and wanna check if there's duplication of results.
 ```
-- ***"comm:"***
+- ***"comm"***
+- The comm command displays comparison between two text files the 1st line is unique to scan-a & 2nd line is unique to scan-b & third is the same in both files:
+```bash
+comm scan-a.txt scan-b.txt
+```
