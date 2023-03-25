@@ -40,3 +40,12 @@ I will be explaining terminal commands that is handy for offensive ops, meanwhil
 ```
 Note: These commands are tested on Parrot and Kali, BlackArch terminal is slightly different, it uses pacman instead of apt for package managing for example.
 ```
+## Fire up your terminal
+```
+Let's start exploring more commands & utilities we will use more frequently
+```
+### Comparing Files:
+```
+Comparing files may seem irrelevant, but its so useful specially when you do multiple scans for same target and wanna check if there's duplication of results.
+```
+- ***"comm:"***
