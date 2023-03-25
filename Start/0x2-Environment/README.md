@@ -44,7 +44,7 @@ Note: These commands are tested on Parrot and Kali, BlackArch terminal is slight
 ```
 Let's start exploring more commands & utilities
 ```
-### Comparing Files:
+### 1 - Comparing Files:
 ```
 Comparing files may seem irrelevant, but its so useful specially when you do multiple scans for same target and wanna check if there's duplication of results.
 ```
