@@ -51,3 +51,8 @@ Comparing files may seem irrelevant, but its so useful specially when you do mul
 ```bash
 comm scan-a.txt scan-b.txt
 ```
+
+### 2) Managing Processes:
+```
+Linux manages multi tasks using processes + every process has a unique id, the terminal introduces jobs which suspend execution of processes or resume execution for later time.
+```
