@@ -49,10 +49,45 @@ Comparing files may seem irrelevant, but its so useful specially when you do mul
 - ***"comm"***
 - ***The comm command displays comparison between two text files the 1st line is unique to scan-a & 2nd line is unique to scan-b & third is the same in both files:***
 ```bash
-comm scan-a.txt scan-b.txt
+$~ comm scan-a.txt scan-b.txt
 ```
 
 ### 2) Managing Processes:
 ```
 Linux manages multi tasks using processes + every process has a unique id, the terminal introduces jobs which suspend execution of processes or resume execution for later time.
+```
+- ***a) "bg"***
+- ***Using an "&" at the end of a command to send it to background, we will send a 500 icmp echo request to ourselves and save it to a file then background it.***
+```bash
+$~ ping -c 500 localhost > ping_icmp.txt &
+```
+- ***If we remove the "&" and run it again it will run in foreground and you can quit it by pressing CTRL+c or suspend it with CTRL+z.***
+- ***If suspended we can return it with "bg" command***
+
+- ***b) "jobs" and "fg"***
+
+- ***To check the status of our previous icmp echo request we need to use "jobs" and "fg"***
+```bash
+$~ jobs
+```
+- ***This will list all jobs status that are running, suspended or stopped.***
+```bash
+$~ fg %1
+```
+- ***This will return the process to foreground and you can edit or execute it again, %1 is just an example you can put any process number that you have 1,2,3,4 etc...***
+
+- ***c) "ps" and "kill"***
+- ***unlike jobs command, ps lists all system processes not only for terminal session, It is useful after compromise to check software running on victim machine.
+- ***This gives more information and clues for further access.***
+- ***This shows all processes, e: select all processes f: full format.***
+```bash
+$~ ps -ef
+```
+- ***This looks for the specific process name you give to it, such as notepad, firefox etc...***
+```bash
+$~ ps -fC <process name>
+```
+- ***To terminate/kill any process, the pid is the process id for example: 1805, 950 etc... which is shown for every process when running the "ps -ef" command.***
+```bash
+$~ kill 1805
 ```
