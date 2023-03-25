@@ -71,13 +71,13 @@ $~ ping -c 500 localhost > ping_icmp.txt &
 $~ jobs
 ```
 - ***This will list all jobs status that are running, suspended or stopped.***
+- ***This will return the process to foreground and you can edit or execute it again, %1 is just an example you can put any process number that you have 1,2,3,4 etc...***
 ```bash
 $~ fg %1
 ```
-- ***This will return the process to foreground and you can edit or execute it again, %1 is just an example you can put any process number that you have 1,2,3,4 etc...***
 
 - ***c) "ps" and "kill"***
-- ***unlike jobs command, ps lists all system processes not only for terminal session, It is useful after compromise to check software running on victim machine.
+- ***Unlike jobs command, ps lists all system processes not only for terminal session, It is useful after compromise to check software running on victim machine.
 - ***This gives more information and clues for further access.***
 - ***This shows all processes, e: select all processes f: full format.***
 ```bash
@@ -85,7 +85,7 @@ $~ ps -ef
 ```
 - ***This looks for the specific process name you give to it, such as notepad, firefox etc...***
 ```bash
-$~ ps -fC <process name>
+$~ ps -fC notepad
 ```
 - ***To terminate/kill any process, the pid is the process id for example: 1805, 950 etc... which is shown for every process when running the "ps -ef" command.***
 ```bash
