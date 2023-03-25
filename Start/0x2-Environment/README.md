@@ -5,7 +5,7 @@
   <br>
   </h1>
  
- <h3 align="center">Your environment is any linux distro you will be using in offensive operations</h3>
+ <h3 align="center">Your environment is any linux distribution you will be using in offensive operations</h3>
  
 <p align="center">
   <a href="">
