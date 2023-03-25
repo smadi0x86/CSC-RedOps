@@ -163,4 +163,4 @@ Here are some common files you need to watch for and this is just a short list o
 - ***/var/log/wtmp (login log files)***
 - ***/tmp***
 
-### [Check More Commands Here](https://securityonline.info/some-useful-linux-command-for-your-penetration-testinglinux-command/) + use the --help on every command to check additional functionalities
+### [Check More Commands Here](https://securityonline.info/some-useful-linux-command-for-your-penetration-testinglinux-command/) + use the --help on every command to check additional functionalities, for example curl --help.
