@@ -57,11 +57,11 @@ Linux manages multi tasks using processes + every process has a unique id, the t
 ```
 - ***a) "bg"***
 - ***Using an "&" at the end of a command to send it to background, we will send a 500 icmp echo request to ourselves and save it to a file then background it.***
+- ***If we remove the "&" and run it again it will run in foreground and you can quit it by pressing CTRL+c or suspend it with CTRL+z.***
+- ***If suspended we can return it with "bg" command***
 ```bash
 $~ ping -c 500 localhost > ping_icmp.txt &
 ```
-- ***If we remove the "&" and run it again it will run in foreground and you can quit it by pressing CTRL+c or suspend it with CTRL+z.***
-- ***If suspended we can return it with "bg" command***
 
 - ***b) "jobs" and "fg"***
 
