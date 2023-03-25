@@ -23,7 +23,7 @@ Hello this is smadi, I'll be happy to serve you this study path for the offensiv
 
 - ***You can clone the project by running this command in your terminal:***
 ```bash
-$~ git clone https://github/com/smadi0x01/CSC-RedOps.git
+$~ git clone https://github.com/smadi0x86/CSC-RedOps.git
 ```
 - ***Equivalently you can download the project by clicking [Here](https://github.com/smadi0x86/CSC-RedOps/archive/refs/heads/main.zip) to download the .zip file.***
 
