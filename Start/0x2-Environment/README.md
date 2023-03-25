@@ -111,7 +111,7 @@ $~ curl -o curl_example.md https://https://github.com/smadi0x86/CSC-RedOps/edit/
 $~ axel -a -n 10 -o axel_example.md https://https://github.com/smadi0x86/CSC-RedOps/edit/main/Start/0x2-Environment/README.md
 ```
 
-### Environment Variables
+### 4) Environment Variables
 ```
 When opening a terminal window, a new bash process that has its own environment variables is initialized, these variables are form of global storage for various setting inherited by any applications that run during this terminal session, one of most common referenced environment variables are:
 ```
@@ -133,7 +133,7 @@ $~ echo $var
 $~ env
 ```
 
-### Systemctl
+### 5) Systemctl
 ```
 The systemctl command manages both system and service configurations, enabling you to manage the OS and control the status of services.
 ```
@@ -149,7 +149,7 @@ $~ $~ sudo systemctl disable ftp
 $~ sudo systemctl status ftp
 ```
 
-### Files to look for:
+### Bonus: Files to look for
 ```
 Here are some common files you need to watch for and this is just a short list off the top of my head:
 ```
