@@ -38,7 +38,7 @@ I will be explaining terminal commands that is handy for offensive ops, meanwhil
 ```
 Note: These commands are tested on Parrot and Kali, BlackArch terminal is slightly different, it uses pacman instead of apt for package managing for example.
 ```
-## [Fire up your terminal](https://www.uptycs.com/blog/linux-commands-and-utilities-commonly-used-by-attackers)
+## [Fire up your terminal](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x2-Environment/commands)
 ```
 Let's start exploring more commands & utilities
 ```
