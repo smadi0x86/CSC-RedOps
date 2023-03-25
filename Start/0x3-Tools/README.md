@@ -4,6 +4,15 @@
   <br>
   </h1>
 
+<h3 align="center">These cover most of the common used offensive tools divided into categories</h3>
+ 
+<p align="center">
+  <a href="">
+   <img src=https://img.shields.io/badge/Red-Team-darkred>
+   <img src=https://img.shields.io/badge/Offensive-Tools-blue>
+  </a>
+  </p>
+  
 ### 🛠️ Tools Categories:
 
 - [Information Gathering](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x1-Mindset)
