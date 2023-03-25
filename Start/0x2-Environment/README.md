@@ -106,7 +106,7 @@ $~ wget -O wget_example.md https://https://github.com/smadi0x86/CSC-RedOps/edit/
 $~ curl -o curl_example.md https://https://github.com/smadi0x86/CSC-RedOps/edit/main/Start/0x2-Environment/README.md
 ```
 - ***axel***
-- ***Is a download accelerator that transfer a file from http or ftp server through multiple connections, -n specifies the number of multiple connections used, -a: more concise progress indicator and -o for a different file name save on local machine.***
+- ***It's a download accelerator that transfer a file from http or ftp server through multiple connections, -n specifies the number of multiple connections used, -a: more concise progress indicator and -o for a different file name save on local machine.***
 ```bash
 $~ axel -a -n 10 -o axel_example.md https://https://github.com/smadi0x86/CSC-RedOps/edit/main/Start/0x2-Environment/README.md
 ```
