@@ -92,5 +92,7 @@ $~ kill 1805
 ```
 
 ### 3) Downloading Files
-
+```
+Downloading Files is the most powerful commands used, most malware authors use these commands to perform different techniques for delivering or execution of their malware on the target system.
+```
 ### [Check More Commands Here](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x2-Environment/commands)
