@@ -151,7 +151,7 @@ $~ sudo systemctl status ftp
 
 ### Bonus: Files to look for
 ```
-Here are some common files you need to watch for and this is just a short list off the top of my head:
+Here are some common files you need to watch for in your attack and this is just a short list off the top of my head:
 ```
 - ***.rhosts (allows remote logins)***
 - ***/etc/passwd (contains the user names)***
