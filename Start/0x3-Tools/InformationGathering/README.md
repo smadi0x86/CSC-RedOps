@@ -9,7 +9,8 @@ We can only interact as a normal user but never scan or access the vulnerablitie
 ```
 This is fairly simple, just visit the target website and look for:
 ```
-***About Page: This reveals the employees emails which start commonly with their lastname@target.com, but the CEO would use his firstname@target.com, we could use these emails in a social media information gathering campaign which is helpful, also look for social media accounts if available on the target website which would save us some time.***
+***About Page: This reveals the employees emails which start commonly with their lastname@target.com, but the CEO would use his firstname@target.com.***
+***We could use these emails in a social media information gathering campaign which is helpful.***
 
 ### whois
 ```
