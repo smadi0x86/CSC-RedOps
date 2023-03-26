@@ -38,7 +38,7 @@ Note: you can do a reverse-lookup with whois but instead of writing megacorpone.
 Reverse lookups gives more information regarding subdomains of the website and extra information that the normal lookup won't give.
 ```
 <div align="center">
-<img src=https://user-images.githubusercontent.com/75253629/227772978-fc52de6e-6551-4d3d-ac36-5f8b54e38ab5.png)>
+<img src=https://user-images.githubusercontent.com/75253629/227772978-fc52de6e-6551-4d3d-ac36-5f8b54e38ab5.png>
 </div>
 
 ### Recon-NG
