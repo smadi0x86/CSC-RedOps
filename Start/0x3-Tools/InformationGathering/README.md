@@ -27,3 +27,12 @@ $~ whois www.megacorpone.com
 
 ***If we visit the [megacorpone.com](https://www.megacorpone.com/contact.html) we can see that Alan Grofield is an IT and security director.***
 ![image](https://user-images.githubusercontent.com/75253629/227772554-d4e2bdab-17ad-4503-8b5e-c81d8d25352d.png)
+
+***Also we can see the nameservers which are components of DNS, we won't get into them right now but its worth keeping it in our notes.***
+![image](https://user-images.githubusercontent.com/75253629/227772792-fd7b91e1-e904-4492-ad30-2fdf2c140e36.png)
+
+```
+Note: you can do a reverse-lookup with whois but instead of writing megacorpone.com you can ping it and get its IP then run whois <IP> in terminal.
+Reverse lookup gives more information regarding subdomains of the website and extra information that the normal lookup won't give.
+```
+![image](https://user-images.githubusercontent.com/75253629/227772978-fc52de6e-6551-4d3d-ac36-5f8b54e38ab5.png)
