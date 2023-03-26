@@ -55,7 +55,7 @@ Recon-NG is a Module-based framework for web-based information gathering and it 
 ```
 There are many OSINT tools available, I won't be covering all of them but here's some to keep an eye on:
 ```
+- ***[Osintframework](https://osintframework.com/)***
 - ***[NetCraft](https://www.netcraft.com/)***
 - ***[Shodan](https://www.shodan.io/)***
 - ***[Maltego](https://www.maltego.com/)***
-- ***[Osintframework](https://osintframework.com/)***
