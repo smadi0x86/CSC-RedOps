@@ -36,3 +36,16 @@ Note: you can do a reverse-lookup with whois but instead of writing megacorpone.
 Reverse lookups gives more information regarding subdomains of the website and extra information that the normal lookup won't give.
 ```
 ![image](https://user-images.githubusercontent.com/75253629/227772978-fc52de6e-6551-4d3d-ac36-5f8b54e38ab5.png)
+
+### Recon-NG
+```
+Recon-NG is a Module-based framework for web-based information gathering and it can be used in terminal.
+```
+
+```
+There are many OSINT tools available, I won't be covering all of them but here's some to keep an eye on:
+```
+- ***[NetCraft](https://www.netcraft.com/)***
+- ***[Shodan](https://www.shodan.io/)***
+- ***[Maltego](https://www.maltego.com/)***
+- ***[Osintframework](https://osintframework.com/)***
