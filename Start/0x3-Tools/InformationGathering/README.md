@@ -24,9 +24,7 @@ whois is a TCP service, tool and database which provides information about a dom
 $~ whois www.megacorpone.com
 ```
 
-```
-Not all information can be useful, but we can see who registered the domain which is Alan Grofield.
-```
+***Not all information can be useful, but we can see who registered the domain which is Alan Grofield.***
 
 ![image](https://user-images.githubusercontent.com/75253629/227772437-852a38d0-8101-4efa-814b-69f83d576065.png)
 
