@@ -31,7 +31,7 @@ Not all information can be useful, but we can see who registered the domain whic
 ![image](https://user-images.githubusercontent.com/75253629/227772437-852a38d0-8101-4efa-814b-69f83d576065.png)
 
 ```
-If we visit the [megacorpone.com](https://www.megacorpone.com/contact.html) we can see that Alan Grofield is an IT and security director.
+If we visit the megacorpone.com we can see that Alan Grofield is an IT and security director.
 ```
 
 <img src=https://user-images.githubusercontent.com/75253629/227772554-d4e2bdab-17ad-4503-8b5e-c81d8d25352d.png>
