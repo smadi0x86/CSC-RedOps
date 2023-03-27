@@ -15,7 +15,7 @@
   
 ### 🛠️ Tools Categories:
 
-- [Information Gathering](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x1-Mindset)
+- [Information Gathering](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/InformationGathering)
 - [Vulnerable Or Not](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/VulnerableOrNot)
 - [Exploitation](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/Exploitation)
 - [Privilege Escalation](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/PrivilegeEscalation)
