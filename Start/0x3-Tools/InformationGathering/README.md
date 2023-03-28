@@ -59,3 +59,5 @@ There are many OSINT tools available, I won't be covering all of them but here's
 - ***[NetCraft](https://www.netcraft.com/)***
 - ***[Shodan](https://www.shodan.io/)***
 - ***[Maltego](https://www.maltego.com/)***
+
+# Active Information Gathering
