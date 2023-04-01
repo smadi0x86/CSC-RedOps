@@ -206,7 +206,7 @@ $~ dnsrecon -d htu.edu.jo -t axfr
 ![image](https://user-images.githubusercontent.com/75253629/229322912-a5ba8066-215a-422c-8dc2-bb8f39c47b3c.png)
 
 ```
-Dig: It collects data about Domain Name Servers. it's helpful to display DNS information.
+Dig: It collects data about Domain Name Servers, it's helpful to display DNS information.
 ```
 - ***It is pretty straight forward just open a terminal and run:***
 ```bash
