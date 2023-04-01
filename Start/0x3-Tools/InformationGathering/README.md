@@ -127,3 +127,32 @@ There are many OSINT tools available, I won't be covering all of them but here's
 - ***[Osint.sh](https://osint.sh/)***
 
 # Active Information Gathering
+
+```
+This involves direct interaction with target to collect information.
+This will include port scanning, DNS, SMB, SMTP enumerations.
+```
+## DNS Enumeration
+```
+DNS is the naming system of the internet, it translates user-friendly website names to IP addresses.
+```
+![image](https://user-images.githubusercontent.com/75253629/229312038-ac65789c-f643-455a-86f6-d370028c89ed.png)
+
+### Interacting with a DNS server
+
+- ***We can use the "host" command to view the DNS server of a host:***
+
+```
+$~ host <website.com>
+```
+![image](https://user-images.githubusercontent.com/75253629/229312456-74f02f7d-5e25-4a46-8b2f-ee80adb0361c.png)
+
+- ***Or to view additional information of the DNS server such as: mx which is servers that handles emails for the domain or txt records, using the -t argument:***
+```
+$~ host -t mx <website.com>
+$~ host -t txt <website.com>
+```
+![image](https://user-images.githubusercontent.com/75253629/229312541-d8ca531f-c7e2-4dc4-9923-f00a2c7267a3.png)
+
+### Automating DNS Lookups
+
