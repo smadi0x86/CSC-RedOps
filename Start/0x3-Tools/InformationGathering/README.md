@@ -122,7 +122,8 @@ There are many OSINT tools available, I won't be covering all of them but here's
 ```
 - ***[Osintframework](https://osintframework.com/)***
 - ***[NetCraft](https://www.netcraft.com/)***
-- ***[Shodan](https://www.shodan.io/)***
 - ***[Maltego](https://www.maltego.com/)***
+- ***[Shodan](https://www.shodan.io/)***
+- ***[Osint.sh](OSINT.SH)**
 
 # Active Information Gathering
