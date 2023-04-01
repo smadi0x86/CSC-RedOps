@@ -3,6 +3,8 @@
 Also known as Open Source Intelligence, the goal is to optain information that expands the attack surface either by phishing or password attacks etc...
 We never communicate with the target directly, we can rely on third parties for information.
 We can only interact as a normal user but never scan or access the vulnerablities of target system or server in this phase.
+
+Note: If any tool mentioned gives you not found run: sudo apt install <toolname> and use the <toolname> --help for extra functionalities of every tool
 ```
 
 ## Website Recon
@@ -156,3 +158,67 @@ $~ host -t txt <website.com>
 
 ### Automating DNS Lookups
 
+```
+We will attempy to guess DNS host names by using a wordlist that uses common hostnames with a bash one liner on terminal:
+```
+```bash
+$~ for ip in $(cat wordlist.txt); do host $ip.megacorpone.com; done | grep -v "not found"
+```
+- ***You can create your own custom wordlist that has several common hostnames such as: mail, owa, ftp, router etc... every word is seperated by a new line in a file.***
+- ***"grep -v "not found" is to filter out invalid results (doesn't show any results that has not found in it).***
+- ***Or you can download pre-made wordlists by:***
+```bash
+$~ sudo apt install seclists
+```
+
+### DNS Zone Transfers
+```
+It is a database replication between related DNS servers in which a zone file is copied from a master DNS server to a slave server.
+The zone file contains a list of all the DNS names configured for that zone.
+Zone transfers must only be allowed for authorized slave DNS servers, but misconfiguration can lead to unauthorized transfer.
+```
+- ***We can run a zone transfer with the "host -l" command followed by the "domain" and "DNS nameserver".***
+- ***Firstly lets get the nameserver:***
+```bash
+$~ host -t ns htu.edu.jo 
+```
+- ***Then we run the zone transfer command:***
+```bash
+$~ host -l htu.edu.jo ns1.nitc.gov.jo
+```
+![image](https://user-images.githubusercontent.com/75253629/229322720-442d37a6-b4b2-4b7e-924f-732328d494d4.png)
+
+- ***The first nameserver doesn't allow zone transfers which is unlucky, maybe try the second nameserver (ns2) of megacorone.com and check what happens.***
+
+### DNS Tools
+```
+There are several tools to automate the enumeration of DNS some are:
+```
+```
+DNSRecon: It is an advanced DNS enumeration script.
+```
+- ***Lets try automating the zone transfer with DNSRecon:***
+```bash
+$~ dnsrecon -d htu.edu.jo -t axfr
+```
+- -d option: Specify a domain name.
+- -t option: Specify the type of enumeration which is zone transfer (axfr).
+![image](https://user-images.githubusercontent.com/75253629/229322912-a5ba8066-215a-422c-8dc2-bb8f39c47b3c.png)
+
+```
+Dig: It collects data about Domain Name Servers. it's helpful to display DNS information.
+```
+- ***It is pretty straight forward just open a terminal and run:***
+```bash
+$~ dig <domain.com>
+```
+![image](https://user-images.githubusercontent.com/75253629/229323068-96d6a6ed-8a3e-442a-b5eb-7291b756752b.png)
+
+## Port Scanning
+```
+Its the process of inspecting tcp or udp ports on a machine to detect what services they are running and what potential attacks may exist.
+We can run a full port scan on a target in the background while we do other information gathering.
+When port scanning is finished we can then narrow our scans to aim for more and more information.
+```
+
+- ***We will start with understanding how sockets work and build our own port scanner with python.***
