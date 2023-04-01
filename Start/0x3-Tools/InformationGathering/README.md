@@ -216,7 +216,7 @@ $~ dig <domain.com>
 
 ## Port Scanning
 ```
-Its the process of inspecting tcp or udp ports on a machine to detect what services they are running and what potential attacks may exist.
+Its the process of inspecting TCP & UDP ports on a machine to detect what services they are running and what potential attacks may exist.
 We can run a full port scan on a target in the background while we do other information gathering.
 When port scanning is finished we can then narrow our scans to aim for more and more information.
 ```
