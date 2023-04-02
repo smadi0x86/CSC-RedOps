@@ -203,6 +203,7 @@ $~ dnsrecon -d htu.edu.jo -t axfr
 ```
 - -d option: Specify a domain name.
 - -t option: Specify the type of enumeration which is zone transfer (axfr).
+
 ![image](https://user-images.githubusercontent.com/75253629/229322912-a5ba8066-215a-422c-8dc2-bb8f39c47b3c.png)
 
 ```
