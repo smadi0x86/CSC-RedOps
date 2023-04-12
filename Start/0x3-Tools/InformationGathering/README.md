@@ -252,9 +252,9 @@ We will be using winsock2 library on windows for programming our client.
 For client side we use these functions:
 
 socket(): To create a socket object.
-connect(): Connect to the server side.
-send(): Send to the server side.
-recv(): Receive from the server side.
+Connect(): Connect to the server side.
+Send(): Send to the server side.
+Recv(): Receive from the server side.
 
 Because I will be using windows as my client, I should use winsock2.
 But if you want to use a linux client such as: kali linux, you should use the sys/socket.h header we mentioned above.
