@@ -388,3 +388,10 @@ gcc <filename.c> -o <filename>
 nc <your_host_ip> <port_number_in_code>
 ```
 ![image](https://user-images.githubusercontent.com/75253629/231585692-1a702f86-8e8d-48aa-b2ad-084ff79f0ca3.png)
+
+```
+Now, I hope you understood the basics of sockets and how they work.
+This is important because port scanning deals with alot of sockets and understanding them is essential.
+```
+
+### Nmap
