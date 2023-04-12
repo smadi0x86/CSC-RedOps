@@ -228,7 +228,7 @@ We will start with understanding how sockets work and building them using C-lang
 - ***Sockets are usually made for server and user (client) interactions.***
 - ***We will code our own server and client.***
 
-```c
+```
 Server side:
 
 For server side we use these functions:
@@ -263,7 +263,7 @@ No difference between winsocks2 and sys/socket.h, its just a simple syntax diffe
 No need to understand these stuff for now, just understand the workflow and you are good to go.
 ```
 
-```
+```c
 /*
 This code is made to be executed in a linux machine.
 */
