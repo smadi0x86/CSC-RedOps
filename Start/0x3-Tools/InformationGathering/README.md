@@ -379,4 +379,12 @@ int main()
     return 0;
 }
 ```
+- ***Now we compile the code using:***
+```bash
+gcc <filename.c> -o <filename>
+```
+- ***Then execute it and run netcat tool to test the server using:***
+```bash
+nc <your_host_ip> <port_number_in_code>
+```
 ![image](https://user-images.githubusercontent.com/75253629/231585692-1a702f86-8e8d-48aa-b2ad-084ff79f0ca3.png)
