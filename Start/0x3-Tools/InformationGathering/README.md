@@ -222,4 +222,93 @@ We can run a full port scan on a target in the background while we do other info
 When port scanning is finished we can then narrow our scans to aim for more and more information.
 ```
 
-- ***We will start with understanding how sockets work and build our own port scanner with python.***
+```
+We will start with understanding how sockets work and building them using C-language, I hope you are all familiar with it.
+```
+- ***Sockets are usually made for server and user (client) interactions.***
+- ***We will code our own server and client.***
+```
+Server side:
+
+For server side we use these functions:
+
+socket(): To create a socket object, we will create a TCP socket which uses ipv4 for communication.
+bind(): To bind the server on a port and a host, which the host will be our machine ip and any port you like.
+listen(): To listen for incoming connections.
+accept(): To accept any connection that is coming.
+send(): After accepting connection we send data.
+recv(): After accepting connection we receive data.
+
+These are all included within the sys/socket.h header which we will import.
+The functions until now are self-explanatory, but we will further explain them.
+```
+
+```
+Client Side:
+
+We will be using winsock2 library on windows for programming our client.
+
+For client side we use these functions:
+
+socket(): To create a socket object.
+connect(): Connect to the server side.
+send(): Send to the server side.
+recv(): Receive from the server side.
+
+Because I will be using windows as my client, I should use winsock2.
+But if you want to use a linux client such as: kali linux, you should use the sys/socket.h header we mentioned above.
+
+No difference between winsocks2 and sys/socket.h, its just a simple syntax difference.
+No need to understand these stuff for now, just understand the workflow and you are good to go.
+```
+
+```c
+/*
+This code is made to be executed in a linux machine.
+*/
+#include <stdio.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <stdlib.h>
+
+int main()
+{
+   
+    int server_socket;
+
+
+    server_socket = socket(AF_INET, SOCK_STREAM, 0);
+
+ 
+    int client_socket;
+
+    struct sockaddr_in server_address;
+
+    char server_message[256] = "You have reached the server!";
+
+ 
+    server_address.sin_family = AF_INET;
+
+    server_address.sin_port = htons(1337);
+
+ 
+    server_address.sin_addr.s_addr = inet_addr("YOUR IP ADDRESS");
+
+
+    bind(server_socket, (struct sockaddr *)&server_address, sizeof(server_address));
+
+    listen(server_socket, 5);
+
+
+    client_socket = accept(server_socket, NULL, NULL);
+
+ 
+    send(client_socket, server_message, sizeof(server_message), 0);
+
+
+    close(server_socket);
+
+    return 0;
+}
+```
