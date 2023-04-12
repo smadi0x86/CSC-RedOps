@@ -244,7 +244,7 @@ These are all included within the sys/socket.h header which we will import.
 The functions until now are self-explanatory, but we will further explain them.
 ```
 
-```c
+```
 Client Side:
 
 We will be using winsock2 library on windows for programming our client.
@@ -252,9 +252,9 @@ We will be using winsock2 library on windows for programming our client.
 For client side we use these functions:
 
 socket(): To create a socket object.
-Connect(): Connect to the server side.
-Send(): Send to the server side.
-Recv(): Receive from the server side.
+connect(): Connect to the server side.
+send(): Send to the server side.
+recv(): Receive from the server side.
 
 Because I will be using windows as my client, I should use winsock2.
 But if you want to use a linux client such as: kali linux, you should use the sys/socket.h header we mentioned above.
@@ -263,7 +263,7 @@ No difference between winsocks2 and sys/socket.h, its just a simple syntax diffe
 No need to understand these stuff for now, just understand the workflow and you are good to go.
 ```
 
-```c
+```
 /*
 This code is made to be executed in a linux machine.
 */
