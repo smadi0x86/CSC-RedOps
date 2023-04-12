@@ -276,33 +276,18 @@ This code is made to be executed in a linux machine.
 
 int main()
 {
-   
     int server_socket;
-
     server_socket = socket(AF_INET, SOCK_STREAM, 0);
-
     int client_socket;
-
     struct sockaddr_in server_address;
-
     char server_message[256] = "You have reached the server!";
-
- 
     server_address.sin_family = AF_INET;
-
     server_address.sin_port = htons(1337);
-
- 
     server_address.sin_addr.s_addr = inet_addr("YOUR IP ADDRESS");
-
     bind(server_socket, (struct sockaddr *)&server_address, sizeof(server_address));
-
     listen(server_socket, 5);
-
     client_socket = accept(server_socket, NULL, NULL);
- 
     send(client_socket, server_message, sizeof(server_message), 0);
-
     close(server_socket);
 
     return 0;
