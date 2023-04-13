@@ -402,6 +402,7 @@ We could still code a client side but I left this as a challenge to you.
 ```
 Nmap is the most popular port scanner available, 
 Its simply a network mapper to discover devices on a network.
+
 A default nmap scan will scan 1,000 most popular ports on a given machine.
 ```
 ```
