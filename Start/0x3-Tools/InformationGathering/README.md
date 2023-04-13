@@ -417,9 +417,6 @@ How does Nmap work?
 Note: nmap is not 100% accurate and may sometimes output false-positives.
 ```
 
-![image](https://user-images.githubusercontent.com/75253629/231731981-cce36025-a2ba-4a49-80d4-2744aa3c2c59.png)
-- ***RST: Reset means that port is closed, but host is alive.***
-
 - ***Nmap scan types:***
 
 ```
