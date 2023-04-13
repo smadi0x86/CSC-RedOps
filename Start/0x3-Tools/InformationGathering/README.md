@@ -507,6 +507,7 @@ To perform a network sweep use:
 ```
 Here we can see that all hosts under this IP is shown
 ```
+    
 ![image](https://user-images.githubusercontent.com/75253629/231760887-62bb6694-e454-45be-8fb0-cc24c0d0fb46.png)
 
 ```
@@ -517,6 +518,7 @@ Here we can see that all hosts under this IP is shown
 ```
 To save scans to a file:
 ```
+    
 ![image](https://user-images.githubusercontent.com/75253629/231761860-49a2b595-d114-4bce-beab-b2008c5aa736.png)
 
 - ***-sn: for clarifying a network sweep scan.***
@@ -528,10 +530,11 @@ To save scans to a file:
 ![image](https://user-images.githubusercontent.com/75253629/231761951-9194bfd8-db01-441b-9fd8-597044192c22.png)
 
 ```
-Now lets do a customizable scan from what we learned:
+7. Now lets do a customizable scan from what we learned:
 ```
 
 - ***We want to scan for port 80 (HTTP) and check all hosts that have this port open then save results in a file.***
+    
  ![image](https://user-images.githubusercontent.com/75253629/231764109-48658da3-d151-43eb-a61e-2602475a8e4b.png)
     
     - ***-p: to scan a specific port.***
@@ -539,3 +542,44 @@ Now lets do a customizable scan from what we learned:
     
   ![image](https://user-images.githubusercontent.com/75253629/231764542-fc54a70c-3649-418b-ab13-dc280c49d17b.png)
   
+```
+8. Lets do a more advanced and customizable scan:
+```
+ 
+- ***We want to scan using the TCP connect, get more information and scan for the top  40 ports then save to a file.***
+    
+    ![image](https://user-images.githubusercontent.com/75253629/231766054-80182944-a8c9-4c17-b6be-5bfa61bdac0c.png)
+
+    - ***-sT: TCP connect scan.***
+    - ***-A: enable operating system version detection, script scanning and traceroute.***
+    - ***--top-ports: give the max port to scan to.***
+    - ***-oG: save to a file
+    
+    ![image](https://user-images.githubusercontent.com/75253629/231767049-961eef37-4ee0-4d34-812a-213204c0197b.png)
+    ![image](https://user-images.githubusercontent.com/75253629/231767094-9d60f641-f133-4e81-a5e2-1f574d7f5744.png)
+
+### Understand scans
+
+
+```
+States:   
+Usually, you'll see either open, filtered, or closed.
+    
+Open state means that there is a service listening on that port, and it is not blocked by a firewall.    
+Filtered means that there is a network issue, firewall, or filter blocking connections to that port.
+Closed means that there is no firewall or filter in place, but there is no service listening for connections on that port
+```
+![image](https://user-images.githubusercontent.com/75253629/231770904-94a906c1-5a53-4dda-8f1b-56d82586bfc0.png)
+```   
+Services:
+The items listed under service show what the port is being used for.
+```
+![image](https://user-images.githubusercontent.com/75253629/231770755-328bba4c-df1f-4c52-a0df-7829e79b939b.png)
+
+```
+There are plenty of flags and scan types.
+I covered the basics of them.
+
+Check more here:
+```
+[https://github.com/jasonniebauer/Nmap-Cheatsheet](https://github.com/jasonniebauer/Nmap-Cheatsheet)
