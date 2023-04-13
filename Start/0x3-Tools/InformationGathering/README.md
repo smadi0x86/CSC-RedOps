@@ -412,7 +412,7 @@ We can't hack a machine without knowing the services running on it.
 ```
 How does Nmap work?
 ```
-- ***Nmap sends messages using sockets from its server (like the one we coded before), but nmap is more advanced.***
+- ***Nmap sends messages using sockets from its server (like the one we coded before), but nmap code is much complicated.***
 - ***Nmap sends messages using sockets to the host ports, if a port responds to nmap, its identified as open.***
 ```
 Note: nmap is not 100% accurate and may sometimes output false-positives.
