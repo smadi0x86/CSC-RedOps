@@ -532,8 +532,8 @@ To save scans to a file:
 
 ```
 7. Now lets do a customizable scan from what we learned:
-```
 
+    
 - ***We want to scan for port 80 (HTTP) and check all hosts that have this port open then save results in a file.***
     
  ![image](https://user-images.githubusercontent.com/75253629/231764109-48658da3-d151-43eb-a61e-2602475a8e4b.png)
@@ -543,7 +543,7 @@ To save scans to a file:
     
   ![image](https://user-images.githubusercontent.com/75253629/231764542-fc54a70c-3649-418b-ab13-dc280c49d17b.png)
   
-```
+
 8. Lets do a more advanced and customizable scan:
 ```
  
