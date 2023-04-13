@@ -513,6 +513,7 @@ Here we can see that all hosts under this IP is shown
 ```
 6. Save Scan Results:
 ```
+    
 - ***You can save your scans to a file so you can get back to them later.***
     
 ```
@@ -537,8 +538,8 @@ To save scans to a file:
     
  ![image](https://user-images.githubusercontent.com/75253629/231764109-48658da3-d151-43eb-a61e-2602475a8e4b.png)
     
-    - ***-p: to scan a specific port.***
-    - ***-oG: save to a file.***
+ - ***-p: to scan a specific port.***
+ - ***-oG: save to a file.***
     
   ![image](https://user-images.githubusercontent.com/75253629/231764542-fc54a70c-3649-418b-ab13-dc280c49d17b.png)
   
