@@ -387,7 +387,8 @@ gcc <filename.c> -o <filename>
 ```bash
 nc <your_host_ip> <port_number_in_code>
 ```
-![image](https://user-images.githubusercontent.com/75253629/231585692-1a702f86-8e8d-48aa-b2ad-084ff79f0ca3.png)
+
+![image](https://user-images.githubusercontent.com/75253629/231733636-2e71e942-8f0f-416b-a7f7-631f447f95de.png)
 
 ```
 Now, I hope you understood the basics of sockets and how they work.
