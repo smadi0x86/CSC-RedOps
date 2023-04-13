@@ -553,7 +553,7 @@ To save scans to a file:
     - ***-sT: TCP connect scan.***
     - ***-A: enable operating system version detection, script scanning and traceroute.***
     - ***--top-ports: give the max port to scan to.***
-    - ***-oG: save to a file
+    - ***-oG: save to a file***
     
     ![image](https://user-images.githubusercontent.com/75253629/231767049-961eef37-4ee0-4d34-812a-213204c0197b.png)
     ![image](https://user-images.githubusercontent.com/75253629/231767094-9d60f641-f133-4e81-a5e2-1f574d7f5744.png)
