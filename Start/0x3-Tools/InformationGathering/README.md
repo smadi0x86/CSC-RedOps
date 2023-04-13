@@ -418,7 +418,7 @@ How does Nmap work?
 Note: nmap is not 100% accurate and may sometimes output false-positives.
 ```
 
-- ***Nmap scan types:***
+### Nmap scan types:
 
 ```
 1. Normal Scan:
