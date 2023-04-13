@@ -524,4 +524,5 @@ To save scans to a file:
 - ***<host>-254: To scan for all hosts and check if host is available or not.***
 - ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
 - ***You can ping the target to put its IP or pass the domain name directly.***    
+    
 ![image](https://user-images.githubusercontent.com/75253629/231761951-9194bfd8-db01-441b-9fd8-597044192c22.png)
