@@ -502,7 +502,7 @@ To perform a network sweep use:
 ![image](https://user-images.githubusercontent.com/75253629/231760233-62e370a8-df1c-404a-9e1b-46689df097a0.png)
 
 - ***-sn: for clarifying a network sweep scan.***
-- ***<host>-254: To scan for all hosts.***
+- ***<host>-254: To scan for all hosts and check if host is available or not.***
 - ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
 - ***You can ping the target to put its IP or pass the domain name directly.***
 
@@ -510,3 +510,22 @@ To perform a network sweep use:
 Here we can see that all hosts under this IP is shown
 ```
 ![image](https://user-images.githubusercontent.com/75253629/231760887-62bb6694-e454-45be-8fb0-cc24c0d0fb46.png)
+
+```
+6. Save Scan Results:
+```
+- ***You can save your scans to a file so you can later get back to them.***
+    
+```
+To save scans to a file:
+```
+![image](https://user-images.githubusercontent.com/75253629/231761860-49a2b595-d114-4bce-beab-b2008c5aa736.png)
+![image](https://user-images.githubusercontent.com/75253629/231761951-9194bfd8-db01-441b-9fd8-597044192c22.png)
+    
+- ***-oG: To save to a file (can be any extension you like).***
+- ***<host>-254: To scan for all hosts and check if host is available or not.***
+- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
+- ***You can ping the target to put its IP or pass the domain name directly.***
+    
+    
+    
