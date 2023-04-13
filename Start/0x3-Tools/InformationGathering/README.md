@@ -475,3 +475,38 @@ it can still be detected by some intrusion detection systems (IDS) and firewalls
 ```
 4. UDP Scan:
 ```
+- ***Nmap will use 2 different methods to identify if a port is open or closed:***
+- ***Method 1: For most ports it will use ICMP port unreachable method by sending an empty packet to a given port.***
+- ***Method 2: For common ports it will send a protocol specific request to a given port such as: snmp packet for port 161.***
+
+```
+To perform a UDP Scan use:
+```
+
+![image](https://user-images.githubusercontent.com/75253629/231758635-3fc2dac5-47a0-4c9b-8ba8-d4fd8e0df764.png)
+
+- ***-sU: UDP scan flag.***
+- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
+- ***You can ping the target to put its IP or pass the domain name directly.***
+
+```
+5. Network Sweeping:
+```
+- ***To deal with large volumes of hosts, we can scan target using network sweeping techniques.***
+- ***And use more specific scans against host of interest.***
+
+```
+To perform a network sweep use:
+```
+
+![image](https://user-images.githubusercontent.com/75253629/231760233-62e370a8-df1c-404a-9e1b-46689df097a0.png)
+
+- ***-sn: for clarifying a network sweep scan.***
+- ***<host>-254: To scan for all hosts.***
+- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
+- ***You can ping the target to put its IP or pass the domain name directly.***
+
+```
+Here we can see that all hosts under this IP is shown
+```
+![image](https://user-images.githubusercontent.com/75253629/231760887-62bb6694-e454-45be-8fb0-cc24c0d0fb46.png)
