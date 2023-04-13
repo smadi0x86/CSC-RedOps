@@ -526,3 +526,16 @@ To save scans to a file:
 - ***You can ping the target to put its IP or pass the domain name directly.***    
     
 ![image](https://user-images.githubusercontent.com/75253629/231761951-9194bfd8-db01-441b-9fd8-597044192c22.png)
+
+```
+Now lets do a customizable scan from what we learned:
+```
+
+- ***We want to scan for port 80 (HTTP) and check all hosts that have this port open then save results in a file.***
+ ![image](https://user-images.githubusercontent.com/75253629/231764109-48658da3-d151-43eb-a61e-2602475a8e4b.png)
+    
+    - ***-p: to scan a specific port.***
+    - ***-oG: save to a file.***
+    
+  ![image](https://user-images.githubusercontent.com/75253629/231764542-fc54a70c-3649-418b-ab13-dc280c49d17b.png)
+  
