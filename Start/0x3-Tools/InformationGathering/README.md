@@ -499,8 +499,6 @@ To perform a UDP Scan use:
 To perform a network sweep use:
 ```
 
-![image](https://user-images.githubusercontent.com/75253629/231760233-62e370a8-df1c-404a-9e1b-46689df097a0.png)
-
 - ***-sn: for clarifying a network sweep scan.***
 - ***<host>-254: To scan for all hosts and check if host is available or not.***
 - ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
@@ -514,7 +512,7 @@ Here we can see that all hosts under this IP is shown
 ```
 6. Save Scan Results:
 ```
-- ***You can save your scans to a file so you can later get back to them.***
+- ***You can save your scans to a file so you can get back to them later.***
     
 ```
 To save scans to a file:
@@ -526,6 +524,3 @@ To save scans to a file:
 - ***<host>-254: To scan for all hosts and check if host is available or not.***
 - ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
 - ***You can ping the target to put its IP or pass the domain name directly.***
-    
-    
-    
