@@ -279,13 +279,13 @@ int main()
     int server_socket;
 
     /*
-    Creating the TCP socket: socket(domain, type, protocol)
+        Creating the TCP socket: socket(domain, type, protocol)
 
-    AF_INET: Means that we have to use the ipv4 address, if we use AF_INET6 it would be ipv6, etc.
-    SOCK_STREAM: Means that we are going to use TCP protocol, if we use SOCK_DGRAM it would be UDP, etc.
-    0: Means that we are going to use the default protocol which is TCP, if we use 1 it would be UDP, etc.
+        AF_INET: Means that we have to use the ipv4 address, if we use AF_INET6 it would be ipv6, etc.
+        SOCK_STREAM: Means that we are going to use TCP protocol, if we use SOCK_DGRAM it would be UDP, etc.
+        0: Means that we are going to use the default protocol which is TCP, if we use 1 it would be UDP, etc.
 
-    Read more: https://www.geeksforgeeks.org/socket-programming-cc/
+        Read more: https://www.geeksforgeeks.org/socket-programming-cc/
     */
     server_socket = socket(AF_INET, SOCK_STREAM, 0);
 
@@ -311,26 +311,26 @@ int main()
     // --------------------------------------------------------------------------------------------------------------
 
     /*
-    Binding the socket to our specified IP and port: bind(socket, address, address_len)
+        Binding the socket to our specified IP and port: bind(socket, address, address_len)
 
-    1. Pass the socket that we created before
-    2. Pass a pointer to the structure that we created before, (struct server_address *) "*" is used to convert the structure to a pointer
-    3. Pass the address of the structure that we created before ( &server_address ) "&" is used to get the address of the variable
-    4. Pass the size of the structure, sizeof(server_address) is used to get the size of the variable
+        1. Pass the socket that we created before
+        2. Pass a pointer to the structure that we created before, (struct server_address *) "*" is used to convert the structure to a pointer
+        3. Pass the address of the structure that we created before ( &server_address ) "&" is used to get the address of the variable
+        4. Pass the size of the structure, sizeof(server_address) is used to get the size of the variable
 
-    Manual for bind(): https://man7.org/linux/man-pages/man2/bind.2.html
+        Manual for bind(): https://man7.org/linux/man-pages/man2/bind.2.html
     */
     bind(server_socket, (struct server_address *)&server_address, sizeof(server_address));
 
     // --------------------------------------------------------------------------------------------------------------
 
     /*
-    Listening for connections: listen(socket, backlog)
+        Listening for connections: listen(socket, backlog)
 
-    1. Pass the socket that we created before
-    2. Pass the backlog, 5 is used because it is the maximum number of connections that can be queued
+        1. Pass the socket that we created before
+        2. Pass the backlog, 5 is used because it is the maximum number of connections that can be queued
 
-    Manual for listen(): https://man7.org/linux/man-pages/man2/listen.2.html
+        Manual for listen(): https://man7.org/linux/man-pages/man2/listen.2.html
     */
     listen(server_socket, 5);
 
@@ -340,12 +340,12 @@ int main()
     int client_socket;
 
     /*
-     Accepting the connection: accept(socket, address, address_len)
+        Accepting the connection: accept(socket, address, address_len)
 
-     It takes 3 arguments, the socket, the address of the client and the size of the address
-     NULL is used because we don't need the address of the client and the size of the address
+        It takes 3 arguments, the socket, the address of the client and the size of the address
+        NULL is used because we don't need the address of the client and the size of the address
 
-     Manual for accept(): https://man7.org/linux/man-pages/man2/accept.2.html
+        Manual for accept(): https://man7.org/linux/man-pages/man2/accept.2.html
     */
     client_socket = accept(server_socket, NULL, NULL);
     printf("Client connected! \n");
@@ -358,14 +358,14 @@ int main()
     char client_message[256] = "You have reached the client!";
 
     /*
-    Sending the message to the client: send(socket, message, message_len, flags)
+        Sending the message to the client: send(socket, message, message_len, flags)
 
-    1. Pass the socket that we created before
-    2. Pass the message that we want to send
-    3. Pass the size of the message, sizeof(server_message) is used to get the size of the variable
-    4. Pass the flags, 0 is used because we don't need any flags
+        1. Pass the socket that we created before
+        2. Pass the message that we want to send
+        3. Pass the size of the message, sizeof(server_message) is used to get the size of the variable
+        4. Pass the flags, 0 is used because we don't need any flags
 
-    Manual for send(): https://man7.org/linux/man-pages/man2/send.2.html
+        Manual for send(): https://man7.org/linux/man-pages/man2/send.2.html
     */
     send(client_socket, server_message, sizeof(server_message), 0);
     recv(client_socket, client_message, sizeof(client_message), 0);
@@ -397,3 +397,82 @@ We could still code a client side but I left this as a challenge to you.
 ```
 
 ### Nmap
+
+```
+Nmap is the most popular port scanner available, 
+Its simply a network mapper to discover devices on a network.
+A default nmap scan will scan 1,000 most popular ports on a given machine.
+```
+```
+Why we need to discover devices?
+We can't hack a machine without knowing the services running on it.
+```
+```
+How does Nmap work?
+```
+- ***Nmap sends messages using sockets from its server (like the one we coded before), but nmap is more advanced.
+- ***Nmap sends messages using sockets to the host ports, if a port responds to nmap, its identified as open.***
+```
+Note: nmap is not 100% accurate and may sometimes output false-positives.
+```
+
+![image](https://user-images.githubusercontent.com/75253629/231731981-cce36025-a2ba-4a49-80d4-2744aa3c2c59.png)
+- ***RST: Reset means that port is closed, but host is alive.***
+
+- ***Nmap scan types:***
+
+```
+1. Normal Scan:
+```
+- ***The default scan sends a SYN message to the target IP:port, receives a SYN/ACK response from the target, and then completes the handshake by sending an ACK message to establish a full connection.***
+- ***This method provides the most accurate and reliable results but can also be the most detectable by network security tools.***
+```
+To run a default scan we open a terminal and use:
+```
+
+![image](https://user-images.githubusercontent.com/75253629/231727450-ba5ef5aa-0c75-412b-b965-712bf2511338.png)
+- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
+- ***You can ping the target to put its IP or pass the domain name directly.***
+```
+It is important to note that a normal scan may be more detectable than a stealth scan or a SYN scan, 
+and can potentially be blocked by a firewall or IDS.
+```
+
+```
+2. Stealth Scan:
+```
+- ***We send a SYN message to the target IP:port, if it responds with a syn/ack we stop (No handshake made) and output this port as open.***
+
+![image](https://user-images.githubusercontent.com/75253629/231722750-101b035f-1b0c-46c3-ab98-04422851f385.png)
+
+```
+To run a stealth scan we open a terminal and use:
+```
+
+![image](https://user-images.githubusercontent.com/75253629/231724130-e9fe074c-ec3e-4a9b-918a-7e16f7768ede.png)
+
+- ***-sS: SYN stealth port scan, that tells nmap not to send the last ack response.***
+- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
+- ***You can ping the target to put its IP or pass the domain name directly.***
+```
+Because we used SYN scan, we didn't complete a 3-way-handshake,
+that's why we didn't receive that much information from the target machine.
+
+It is important to note that while a stealth scan may be more difficult to detect than other scanning methods, 
+it can still be detected by some intrusion detection systems (IDS) and firewalls.
+```
+
+![image](https://user-images.githubusercontent.com/75253629/231725491-f263d4be-4a8a-4464-b321-f6353b09f5e7.png)
+
+```
+3. TCP Connect Scan:
+```
+- ***This scan runs by default when the user doesn't run nmap with sudo (root privilege)***
+- ***Since the TCP connect scan makes use of the [berkeley](https://nmap.org/book/scan-methods-connect-scan.html) sockets api to perform 3-way-handshake it doesn't require privilges.***
+- ***Nmap has to wait until the api returns the status of connection, it takes much longer than stealth and normal scan.***
+
+![image](https://user-images.githubusercontent.com/75253629/231730834-8ec1baae-2f9a-4894-b245-945b7c8b8876.png)
+
+```
+4. UDP Scan:
+```
