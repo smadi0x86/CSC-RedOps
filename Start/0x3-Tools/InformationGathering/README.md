@@ -223,7 +223,7 @@ When port scanning is finished we can then narrow our scans to aim for more and 
 ```
 
 ```
-We will start with understanding how sockets work and building them using C-language, I hope you are all familiar with it.
+We will start with understanding how sockets work and building them using C-language, I hope you are all familiar with c.
 ```
 - ***Sockets are usually made for server and user (client) interactions.***
 - ***We will code our own server and client.***
