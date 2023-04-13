@@ -580,4 +580,5 @@ The items listed under service show what the port is being used for.
 There are plenty of flags and scan types.
 I covered the basics of them.
 ```
-- ***Check more here:[https://github.com/jasonniebauer/Nmap-Cheatsheet](https://github.com/jasonniebauer/Nmap-Cheatsheet)***
+    
+- ***Check more here: [https://github.com/jasonniebauer/Nmap-Cheatsheet](https://github.com/jasonniebauer/Nmap-Cheatsheet)***
