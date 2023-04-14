@@ -475,7 +475,7 @@ nmap [ScanType] [Options] <target>
 
 - **The full list of Nmap Scripting Engine scripts: [http://nmap.org/nsedoc/](http://nmap.org/nsedoc/)**
 
-`nmap -sC` runs default scripts...
+Running Default scripts:`nmap -sC`
 
 Running individual or groups of scripts:
 `nmap --script=<ScriptName>| <ScriptCategory>|<ScriptDir>`
