@@ -546,16 +546,6 @@ The most common Nmap scripting engine categories:
     
 ### Understand scans
     
-```
-Services:
-    
-The items listed under service show what the port is being used for.
-```
-![image](https://user-images.githubusercontent.com/75253629/231770755-328bba4c-df1f-4c52-a0df-7829e79b939b.png)
 
-```
-There are plenty of flags and scan types.
-I covered the basics of them.
-```
-    
-- ***Check more here: [https://github.com/jasonniebauer/Nmap-Cheatsheet](https://github.com/jasonniebauer/Nmap-Cheatsheet)***
+
+
