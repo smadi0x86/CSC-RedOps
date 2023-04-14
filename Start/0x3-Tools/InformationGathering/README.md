@@ -443,6 +443,8 @@ Note: If no port range is specified, Nmap scans the 1,000 most popular ports.
 - **Open/Filtered:** This indicates that the port was filtered or open but Nmap couldn’t establish the state.
 - **Closed/Filtered:** This indicates that the port was filtered or closed but Nmap couldn’t establish the state.
 
+![image](https://user-images.githubusercontent.com/75253629/231770904-94a906c1-5a53-4dda-8f1b-56d82586bfc0.png)
+
 ### Scan Types
 
 - `-sn`: *Probe only (host discovery, not port scan)*
@@ -543,18 +545,10 @@ The most common Nmap scripting engine categories:
 - `--reason`: ***Displays the reason Nmap thinks that the port is open, closed, or filtered***
     
 ### Understand scans
-
-```
-States:   
-Usually, you'll see either open, filtered, or closed.
     
-Open state means that there is a service listening on that port, and it is not blocked by a firewall.    
-Filtered means that there is a network issue, firewall, or filter blocking connections to that port.
-Closed means that there is no firewall or filter in place, but there is no service listening for connections on that port
 ```
-![image](https://user-images.githubusercontent.com/75253629/231770904-94a906c1-5a53-4dda-8f1b-56d82586bfc0.png)
-```   
 Services:
+    
 The items listed under service show what the port is being used for.
 ```
 ![image](https://user-images.githubusercontent.com/75253629/231770755-328bba4c-df1f-4c52-a0df-7829e79b939b.png)
