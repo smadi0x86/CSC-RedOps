@@ -527,7 +527,7 @@ The most common Nmap scripting engine categories:
 - ***intrusive:*** May crash target, consume excessive resources, or otherwise impact target machines in a malicious fashion.
 - ***malware:*** Look for signs of malware infection on the target hosts.
 - ***safe:*** Designed not to impact target in a negative fashion.
-- ***version:***Measure the version of software or protocols on the target hosts.
+- ***version:*** Measure the version of software or protocols on the target hosts.
 - ***vul:*** Measure whether target systems have a known vulnerability.
 
 ### Output Options
