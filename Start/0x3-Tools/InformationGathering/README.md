@@ -420,145 +420,137 @@ Note: nmap is not 100% accurate and may sometimes output false-positives.
 
 ### Nmap scan types:
 
-```
-1. Normal Scan:
-```
-- ***The default scan sends a SYN message to the target IP:port, receives a SYN/ACK response from the target, and then completes the handshake by sending an ACK message to establish a full connection.***
-- ***This method provides the most accurate and reliable results but can also be the most detectable by network security tools.***
-```
-To run a default scan we open a terminal and use:
-```
-
-![image](https://user-images.githubusercontent.com/75253629/231727450-ba5ef5aa-0c75-412b-b965-712bf2511338.png)
-- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
-- ***You can ping the target to put its IP or pass the domain name directly.***
-```
-It is important to note that a normal scan may be more detectable than a stealth scan or a SYN scan, 
-and can potentially be blocked by a firewall or IDS.
-```
+Basic nmap Syntax:
 
 ```
-2. Stealth Scan:
+nmap [ScanType] [Options] <target>
 ```
-- ***We send a SYN message to the target IP:port, if it responds with a syn/ack we stop (No handshake made) and output this port as open.***
+If no port range is specified, Nmap scans the 1,000 most popular ports.
 
-![image](https://user-images.githubusercontent.com/75253629/231722750-101b035f-1b0c-46c3-ab98-04422851f385.png)
+- `-p <port1>-<port2>`: Scans a port range
+- `-p <port1>,<port2>,...`: Scans a port list
+- `-pU:53,U:110,T20-445`: Mix TCP and UDP
+- `-r`: Scans linearly (does not randomize ports)
+- `--top-ports <n>`: Scan n most popular ports
+- `-p-65535`: Leaving off the initial port in range makes Nmap scan start at port 1
+- `-p-`: Leaving off the end port in range makes Nmap scan all ports
+- `-F`: (Fast (limited port) scan)
 
-```
-To run a stealth scan we open a terminal and use:
-```
+## Port Status
 
-![image](https://user-images.githubusercontent.com/75253629/231724130-e9fe074c-ec3e-4a9b-918a-7e16f7768ede.png)
+- Open: This indicates that an application is listening for connections on this port.
+- Closed: This indicates that the probes were received but there is no application listening on this port.
+- Filtered: This indicates that the probes were not received and the state could not be established. It also indicates that the probes are being dropped by some kind of filtering.
+- Unfiltered: This indicates that the probes were received but a state could not be established.
+- Open/Filtered: This indicates that the port was filtered or open but Nmap couldn’t establish the state.
+- Closed/Filtered: This indicates that the port was filtered or closed but Nmap couldn’t establish the state.
 
-- ***-sS: SYN stealth port scan, that tells nmap not to send the last ack response.***
-- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
-- ***You can ping the target to put its IP or pass the domain name directly.***
-```
-Because we used SYN scan, we didn't complete a 3-way-handshake,
-that's why we didn't receive that much information from the target machine.
+## Scan Types
 
-It is important to note that while a stealth scan may be more difficult to detect than other scanning methods, 
-it can still be detected by some intrusion detection systems (IDS) and firewalls.
-```
+- `-sn`: Probe only (host discovery, not port scan)
+- `-sS`: SYN Scan
+- `-sT`: TCP Connect Scan
+- `-sU`: UDP Scan
+- `-sV`: Version Scan
+- `-O`: Used for OS Detection/fingerprinting
+- `--scanflags`: Sets custom list of TCP using `URG ACK PSH RST SYN FIN` in any order
 
-![image](https://user-images.githubusercontent.com/75253629/231725491-f263d4be-4a8a-4464-b321-f6353b09f5e7.png)
+## Probing Options
 
-```
-3. TCP Connect Scan:
-```
-- ***This scan runs by default when the user doesn't run nmap with sudo (root privilege)***
-- ***Since the TCP connect scan makes use of the [berkeley](https://nmap.org/book/scan-methods-connect-scan.html) sockets api to perform 3-way-handshake it doesn't require privilges.***
-- ***Nmap has to wait until the api returns the status of connection, it takes much longer than stealth and normal scan.***
+- `-Pn`: Don't probe (assume all hosts are up)
+- `-PB`: Default probe (TCP 80, 445 & ICMP)
+- `-PS<portlist>` : Checks if ssytems are online by probing TCP ports
+- `-PE`: Using ICMP Echo Request
+- `-PP`: Using ICMP Timestamp Request
+- `-PM`: Using ICMP Netmask Request
 
-![image](https://user-images.githubusercontent.com/75253629/231730834-8ec1baae-2f9a-4894-b245-945b7c8b8876.png)
+## Timing Options
+- `-T0` (Paranoid): Very slow, used for IDS evasion
+- `-T1` (Sneaky): Quite slow, used for IDS evasion
+- `-T2` (Polite): Slows down to consume less bandwidth, runs ~10 times slower than default
+- `-T3` (Normal): Default, a dynamic timing model based on target responsiveness
+- `-T4` (Aggressive): Assumes a fast and reliable network and may overwhelm targets
+- `-T5` (Insane): Very aggressive; will likely overwhelm targets or miss open ports
 
-```
-4. UDP Scan:
-```
-- ***Nmap will use 2 different methods to identify if a port is open or closed:***
-- ***Method 1: For most ports it will use ICMP port unreachable method by sending an empty packet to a given port.***
-- ***Method 2: For common ports it will send a protocol specific request to a given port such as: snmp packet for port 161.***
+## Fine-Grained Timing Options
 
-```
-To perform a UDP Scan use:
-```
+- `--min-hostgroup/max-hostgroup <size> `: Parallel host scan group sizes
+- `--min-parallelism/max-parallelism <numprobes>`: Probes parallelization
+- `--min-rtt-timeout/max-rtttimeout/initial-rtt-timeout <time>`: Specifies probe round trip time.
+- `--max-retries <tries>`: Caps number of port scan probe retransmissions.
+- `--host-timeout <time>`: Gives up on target after this long
+- `--scan-delay/--max-scan-delay <time>`: Adjusts delay between probes
+- `--min-rate <number>`: Send packets no slower than `<number>` per second
+- `--max-rate <number>`: Send packets no faster than `<number>` per second
 
-![image](https://user-images.githubusercontent.com/75253629/231758635-3fc2dac5-47a0-4c9b-8ba8-d4fd8e0df764.png)
+## Nmap Scripting Engine
 
-- ***-sU: UDP scan flag.***
-- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
-- ***You can ping the target to put its IP or pass the domain name directly.***
+The full list of Nmap Scripting Engine scripts: http://nmap.org/nsedoc/
 
-```
-5. Network Sweeping:
-```
-- ***To deal with large volumes of hosts, we can scan target using network sweeping techniques.***
-- ***And use more specific scans against host of interest.***
+`nmap -sC` runs default scripts...
 
-```
-To perform a network sweep use:
-```
-
-- ***-sn: for clarifying a network sweep scan.***
-- ***<host>-254: To scan for all hosts and check if host is available or not.***
-- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
-- ***You can ping the target to put its IP or pass the domain name directly.***
-
-```
-Here we can see that all hosts under this IP is shown
-```
-    
-![image](https://user-images.githubusercontent.com/75253629/231760887-62bb6694-e454-45be-8fb0-cc24c0d0fb46.png)
-
-```
-6. Save Scan Results:
-```
-    
-- ***You can save your scans to a file so you can get back to them later.***
-    
-```
-To save scans to a file:
-```
-    
-![image](https://user-images.githubusercontent.com/75253629/231761860-49a2b595-d114-4bce-beab-b2008c5aa736.png)
-
-- ***-sn: for clarifying a network sweep scan.***
-- ***-oG: To save to a file (can be any extension you like).***
-- ***<host>-254: To scan for all hosts and check if host is available or not.***
-- ***sudo: It tells nmap to gives us the ability to receive network raw socket and sniffing privileges.***
-- ***You can ping the target to put its IP or pass the domain name directly.***    
-    
-![image](https://user-images.githubusercontent.com/75253629/231761951-9194bfd8-db01-441b-9fd8-597044192c22.png)
-
-```
-7. Now lets do a customizable scan from what we learned:
-```
-
-- ***We want to scan for port 80 (HTTP) and check all hosts that have this port open then save results in a file.***
-    
- ![image](https://user-images.githubusercontent.com/75253629/231764109-48658da3-d151-43eb-a61e-2602475a8e4b.png)
-    
-- ***-p: to scan a specific port.***
-- ***-oG: save to a file.***
-    
-  ![image](https://user-images.githubusercontent.com/75253629/231764542-fc54a70c-3649-418b-ab13-dc280c49d17b.png)
+Running individual or groups of scripts:
+`nmap --script=<ScriptName>| <ScriptCategory>|<ScriptDir>`
   
+Using the list of script arguments:
+`nmap --script-args=<Name1=Value1,...>`
+
+Updating the script database:
+`nmap --script-updatedb`
+
+
+Some particularly useful scripts include:
+
+- dns-zone-transfer: Attempts to pull a zone file (AXFR) from a DNS server.
 ```
-8. Lets do a more advanced and customizable scan:
+$ nmap --script dns-zonetransfer.nse --script-args dns-zonetransfer.domain=<domain> -p53 <hosts>
 ```
+
+- http-robots.txt: Harvests robots.txt files from discovered web servers.
+```
+$ nmap --script http-robots.txt <hosts>
+```
+
+- smb-brute: Attempts to determine valid username and password combinations via automated guessing.
+```
+$ nmap --script smb-brute.nse -p445 <hosts>
+```
+
+- smb-psexec: Attempts to run a series of programs on the target machine, using credentials provided as scriptargs.
+```
+$ nmap --script smb-psexec.nse –script-args=smbuser=<username>,smbpass=<password>[,config=<config>] -p445 <hosts>
+```
+
+### Nmap Scripting Engine Categories
+The most common Nmap scripting engine categories:
+- auth: Utilize credentials or bypass authentication on target hosts.
+- broadcast: Discover hosts not included on command line by broadcasting on local network.
+- brute: Attempt to guess passwords on target systems, for a variety of protocols, including http, SNMP, IAX, MySQL, VNC, etc.
+- default: Scripts run automatically when -sC or -A are used.
+- discovery: Try to learn more information about target hosts through public sources of information, SNMP, directory services, and more.
+- dos: May cause denial of service conditions in target hosts.
+- exploit: Attempt to exploit target systems.
+- external: Interact with third-party systems not included in target list.
+- fuzzer: Send unexpected input in network protocol fields.
+- intrusive: May crash target, consume excessive resources, or otherwise impact target machines in a malicious fashion.
+- malware: Look for signs of malware infection on the target hosts.
+- safe: Designed not to impact target in a negative fashion.
+- version: Measure the version of software or protocols on the target hosts.
+- vul: Measure whether target systems have a known vulnerability.
+
+## Output Options
+
+- `-oN`: Standard Nmap output
+- `-oG`: Greppable format
+- `-oX`: XML format
+- `-oA`: <basename> Generate Nmap, Greppable, and XML output files using basename for files
+  
+ ## Additional Options
  
-- ***We want to scan using the TCP connect, get more information and scan for the top  40 ports then save to a file.***
-    
-    ![image](https://user-images.githubusercontent.com/75253629/231766054-80182944-a8c9-4c17-b6be-5bfa61bdac0c.png)
-
-    - ***-sT: TCP connect scan.***
-    - ***-A: enable operating system version detection, script scanning and traceroute.***
-    - ***--top-ports: give the max port to scan to.***
-    - ***-oG: save to a file***
-    
-    ![image](https://user-images.githubusercontent.com/75253629/231767049-961eef37-4ee0-4d34-812a-213204c0197b.png)
-    ![image](https://user-images.githubusercontent.com/75253629/231767094-9d60f641-f133-4e81-a5e2-1f574d7f5744.png)
-
+- `-n`: Disables reverse IP address lookups
+- `-6`: Uses IPv6 only
+- `-A`: Uses several features, including OS Detection, Version Detection, Script Scanning (default), and traceroute
+- `--reason`: Displays the reason Nmap thinks that the port is open, closed, or filtered
 ### Understand scans
 
 
