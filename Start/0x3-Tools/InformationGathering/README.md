@@ -422,9 +422,9 @@ Note: nmap is not 100% accurate and may sometimes output false-positives.
 
 ```
 nmap [ScanType] [Options] <target>
-```
-- **If no port range is specified, Nmap scans the 1,000 most popular ports.**
 
+Note: If no port range is specified, Nmap scans the 1,000 most popular ports.
+```
 - `-p <port1>-<port2>`: *Scans a port range*
 - `-p <port1>,<port2>,...`: *Scans a port list*
 - `-pU:53,U:110,T20-445`: *Mix TCP and UDP*
