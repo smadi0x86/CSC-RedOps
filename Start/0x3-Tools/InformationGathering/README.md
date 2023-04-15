@@ -392,6 +392,7 @@ nc <your_host_ip> <port_number_in_code>
 
 ```
 Now, I hope you understood the basics of sockets and how they work.
+
 This is important because port scanning deals with alot of sockets and understanding them is essential.
 
 We could still code a client side but I left this as a challenge to you.
