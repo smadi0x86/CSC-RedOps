@@ -569,11 +569,11 @@ sudo nmap -sS --top-ports 100 -sV -O -A -T4 <host> -oG nmap_scan.txt
 We got alot of information from this scan, now lets break them down and remove any useless informations
 ```
     
-- ***We got the first information which is an open port 22 which appears to be ssh service (openssh version 6.6) which is running on ubuntu OS***
+- ***We got the first information which is an open port 22 which appears to be ssh service (openssh version 6.6) which is running on ubuntu OS.***
  
 ![image](https://user-images.githubusercontent.com/75253629/232223722-d4bb5a92-9ae1-426f-8246-cadb5d54dd6f.png)
 
-- ***The next 2 ports are smtp for email services that appears to be closed and http which indicates that this IP is running a web service which appears to be apache httpd 2.4.7 version also running on ubuntu OS***
+- ***The next 2 ports are smtp for email services that appears to be closed and http which indicates that this IP is running a web service which appears to be apache httpd 2.4.7 version also running on ubuntu OS.***
     
 ![image](https://user-images.githubusercontent.com/75253629/232223863-d0f5a694-54c0-49c0-b5a3-ebc35c1e1e02.png)
 
