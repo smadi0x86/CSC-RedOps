@@ -414,6 +414,9 @@ How does Nmap work?
 ```
 - ***Nmap sends messages using sockets from its server (like the one we coded before), but nmap code is much complicated.***
 - ***Nmap sends messages using sockets to the host ports, if a port responds to nmap, its identified as open.***
+
+![image](https://user-images.githubusercontent.com/75253629/232224635-751a7083-e4b5-4936-9387-0fd65a7daaaa.png)
+
 ```
 Note: nmap is not 100% accurate and may sometimes output false-positives.
 ```
