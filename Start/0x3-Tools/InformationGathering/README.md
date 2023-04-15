@@ -583,9 +583,9 @@ We got alot of information from this scan, now lets break them down and remove a
 
 ```
 Note: Its important to note that nmap scans is not 100% accurate and can lead to false-positives.
-
-We will get to testing these services for vulnerablities in the VulnerableOrNot section.
-For now, just expirement different scan types and know how to read them.
 ```
     
+### Moving Forward   
+- ***We will get to testing these services for vulnerablities in the [VulnerableOrNot section](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/VulnerableOrNot).
+- ***For now, just expirement different scan types and know how to read them.***
     
