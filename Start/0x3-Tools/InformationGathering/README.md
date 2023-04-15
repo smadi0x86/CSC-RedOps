@@ -587,5 +587,5 @@ Note: Its important to note that nmap scans is not 100% accurate and can lead to
     
 ### Moving Forward   
 - ***We will get to testing these services for vulnerablities in the [VulnerableOrNot section](https://github.com/smadi0x86/CSC-RedOps/tree/main/Start/0x3-Tools/VulnerableOrNot).***
-- ***For now, just expirement different scan types and know how to read them.***
+- ***For now, just expirement different scan types & techniques we used to gather information and know how to use and understand them.***
     
