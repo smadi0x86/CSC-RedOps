@@ -561,7 +561,7 @@ sudo nmap -sn <host>
     
 ![image](https://user-images.githubusercontent.com/75253629/232224060-469a0f34-a889-4c56-80d5-fa1d60d7289c.png)
     
-- ***Now, I picked a host and will do a Syn-stealth scan, to get top 100 ports open, get the services versions, traceroute, operating system fingerprints, aggressive timing options and save results to a file.***
+- ***Now, I picked a host and will do a syn-stealth scan, to get top 100 ports open, get the services versions, traceroute, operating system fingerprints, aggressive timing options and save results to a file.***
 
 ```
 sudo nmap -sS --top-ports 100 -sV -O -A -T4 <host> -oG nmap_scan.txt
