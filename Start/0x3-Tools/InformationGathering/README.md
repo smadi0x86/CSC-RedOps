@@ -545,7 +545,44 @@ The most common Nmap scripting engine categories:
 - `--reason`: ***Displays the reason Nmap thinks that the port is open, closed, or filtered***
     
 ### Understand scans
+ 
+```
+Let's fire up our terminal, pick our target ( Will be http://scanme.nmap.org for this example )
+```
+ - ***Firstly, I will do a host discovery to check all hosts available on the target domain.***
     
+```
+sudo nmap -sn <host>
+```
+    
+![image](https://user-images.githubusercontent.com/75253629/232224060-469a0f34-a889-4c56-80d5-fa1d60d7289c.png)
+    
+- ***Now, I picked a host and will do a Syn-stealth scan, to get top 100 ports open, get the services versions, traceroute, operating system fingerprints, aggressive timing options and save results to a file.***
 
+```
+sudo nmap -sS --top-ports 100 -sV -O -A -T4 <host> -oG nmap_scan.txt
+```
+    
+![image](https://user-images.githubusercontent.com/75253629/232223554-1f0d9df7-a9f2-42d3-b364-f60cea4e4395.png)
 
+```
+We got alot of information from this scan, now lets break them down and remove any useless informations
+```
+    
+- ***We got the first information which is an open port 22 which appears to be ssh service (openssh version 6.6) which is running on ubuntu OS***
+ 
+![image](https://user-images.githubusercontent.com/75253629/232223722-d4bb5a92-9ae1-426f-8246-cadb5d54dd6f.png)
 
+- ***The next 2 ports are smtp for email services that appears to be closed and http which indicates that this IP is running a web service which appears to be apache httpd 2.4.7 version also running on ubuntu OS***
+    
+![image](https://user-images.githubusercontent.com/75253629/232223863-d0f5a694-54c0-49c0-b5a3-ebc35c1e1e02.png)
+
+- ***Finally, here we see the traceroute which is useful to map how information moved within a company's computer network and then focus their attacks on certain computers.***
+ 
+![image](https://user-images.githubusercontent.com/75253629/232223978-4af42694-ba8f-4cfc-9647-da14f28dc303.png)
+
+```
+Note: Its important to note that nmap scans is not 100% accurate and can lead to false-positives.
+```
+    
+    
